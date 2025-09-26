@@ -1,5 +1,0 @@
-&BANDS
-prefix        = 'Sb2Te3-uatsx-c5-soc-4.0'
-outdir        = 'tmp'
-filband       = './bands/Sb2Te3-uatsx-c5-soc-4.0.bands'  
-/
