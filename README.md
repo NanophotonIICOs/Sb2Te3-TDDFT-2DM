@@ -5,7 +5,7 @@
 # Sb2Te3-TDDFT-2DM  
 
 Research data and scripts repository for the paper:  
-**“Linear optical response of monolayer Sb₂Te₃ under uniaxial strain assessed by Time-Dependent Density Functional Theory” (2D Materials, IOP Publishing 2025).**  
+**“Linear optical response of monolayer Sb$_2$Te$_3$ under uniaxial strain assessed by Time-Dependent Density Functional Theory” (2D Materials, IOP Publishing 2025).**  
 
 This repository provides **reproducibility assets**: input files (Quantum ESPRESSO & YAMBO), representative outputs, and the scripts used to process and plot the figures included in the article.  
 
@@ -21,21 +21,22 @@ This repository provides **reproducibility assets**: input files (Quantum ESPRES
   Large raw files (`.save/`, `tmp/`, YAMBO databases) are **not included** due to size, but can be provided upon request.  
 
 - **Processing and plotting scripts**  
-  - **Python (ASE)** → for structure manipulation and atomic visualizations.  
-  - **Julia (PGFPlotsX)** → for high-quality plotting of band structures and optical spectra.  
+  - **Python (ASE)** &#8594; for structure manipulation and atomic visualizations.  
+  - **Julia (PGFPlotsX)** &#8594; for high-quality plotting of band structures and optical spectra.  
     - PGFPlotsX: [PGFPlotsX.jl](https://kristofferc.github.io/PGFPlotsX.jl/stable/)  
-  - **LaTeX/TikZ** → for figure composition, axis labeling, and final layout.  
+  - **LaTeX/TikZ** &#8594; for figure composition, axis labeling, and final layout.  
 
 - **Institutional tools**  
-  Pre-processing of Quantum ESPRESSO outputs was done using scripts from the institutional repository [AtomistIICO](https://github.com/NanophotonIICOs/AtomistIICO).  
+  Post-processing of Quantum ESPRESSO outputs was done using scripts from the institutional repository [AtomistIICO](https://github.com/NanophotonIICOs/AtomistIICO).  
 
 ---
 
 
 ## Data policy  
 
-- Only **input files, selected outputs, and scripts** are included here.  
-- Full raw datasets from QE/YAMBO are excluded for size reasons but can be made available upon request.  
+- Only the files required to reproduce the results presented in the manuscript are included here:  
+**input files, selected representative outputs, and the corresponding processing/plotting scripts.**  
+- Large intermediate data (e.g. Quantum ESPRESSO `.save/` directories, temporary files, or YAMBO databases) are excluded due to size, but can be made available upon reasonable request.
 
 ---
 
