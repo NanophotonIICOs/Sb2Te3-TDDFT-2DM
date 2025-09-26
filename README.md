@@ -46,6 +46,20 @@ This repository provides **reproducibility assets**: input files (Quantum ESPRES
 
 ---
 
+## Contact  
+
+For questions, clarifications, or requests regarding the data and scripts:  
+
+- **Dr. Oscar Ruiz Cigarrillo**  
+  Instituto de Investigación en Comunicación Óptica (IICO)  
+  Universidad Autónoma de San Luis Potosí (UASLP), México  
+  📧 Email: [oscar.ruiz@uaslp.mx](mailto:oscar.ruiz@uaslp.mx)  
+- **Dr. Raul Eduardo Balderas Navarro**  
+  Instituto de Investigación en Comunicación Óptica (IICO)  
+  Universidad Autónoma de San Luis Potosí (UASLP), México  
+  📧 Email: [raul.balderas@uaslp.mx;](mailto:raul.balderas@uaslp.mx;)  
+
+---
 
 <h2>Acknowledgments</h2>
 
