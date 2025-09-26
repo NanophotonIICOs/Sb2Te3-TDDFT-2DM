@@ -1,0 +1,47 @@
+&CONTROL
+calculation   = 'bands'
+prefix        = 'Sb2Te3-uatsx-c5-soc-4.0'
+pseudo_dir    = '/zfs-home/202401017n1/pseudos'
+verbosity     = 'high' 
+outdir        = 'tmp'
+/
+&SYSTEM 
+ibrav            = 0             
+nat              = 5          
+ntyp             = 2          
+ecutwfc          = 70
+ecutrho          = 700
+input_dft        = 'pbe'
+vdw_corr         = 'DFT-D'
+nbnd             = 200
+noncolin        = .true.
+lspinorb        = .true.
+/
+
+&ELECTRONS
+conv_thr      = 1.0D-7
+/
+
+ATOMIC_SPECIES
+Sb  121.760  Sb_ONCV_PBE_FR-1.1.upf
+Te  127.600  Te_ONCV_PBE_FR-1.1.upf
+
+CELL_PARAMETERS (angstrom)
+   4.482902899   0.000000000   0.000000000
+   -2.155241778   3.732952155   0.000000000
+   0.000000000   0.000000000   22.162984280
+
+ATOMIC_POSITIONS (angstrom)
+Sb               2.6469954338        1.8637789214       13.0522023544
+Te               2.5800441047        1.7503250968        7.4440806968
+Sb               0.3232546401        0.5311881700        9.1105763920
+Te               0.3898357779        0.6453247907       14.7187870447
+Te               0.4073784748        3.0642990711       11.0813900320
+
+K_POINTS (crystal_b)
+4
+0.000000000	0.000000000	0.000000000	70  !G
+0.500000000	0.000000000	0.000000000	70  !M 
+0.333333333	0.333333333	0.000000000	70  !K
+0.000000000	0.000000000	0.000000000	70  !G
+

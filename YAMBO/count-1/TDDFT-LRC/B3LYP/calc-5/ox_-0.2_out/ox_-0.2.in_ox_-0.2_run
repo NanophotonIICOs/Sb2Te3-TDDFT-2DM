@@ -1,0 +1,23 @@
+optics                           # [R] Linear Response optical properties
+chi                              # [R][CHI] Dyson equation for Chi.
+tddft                            # [R][K] Use TDDFT kernel
+FFTGvecs= 50             Ry    # [FFT] Plane-waves
+Chimod= "LRC"                    # [X] IP/Hartree/ALDA/LRC/PF/BSfxc
+LRC_alpha= -0.2              # [TDDFT] LRC alpha factor
+NGsBlkXd= 3               Ry    # [Xd] Response block size
+% QpntsRXd
+   1 | 1 |                         # [Xd] Transferred momenta
+%
+% BndsRnXd
+   1 | 100 |                         # [Xd] Polarization function bands
+%
+% EnRngeXd
+  0.00000 | 5.00000 |         eV    # [Xd] Energy range
+%
+% DmRngeXd
+ 0.050000 | 0.050000 |         eV    # [Xd] Damping range
+%
+ETStpsXd= 1501                    # [Xd] Total Energy steps
+% LongDrXd
+ 1.000000 | 0.000000 | 0.000000 |        # [Xd] [cc] Electric Field
+%

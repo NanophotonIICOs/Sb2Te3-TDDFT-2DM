@@ -1,0 +1,55 @@
+#                                                                     
+#  /$$     /$$ /$$$$$$  /$$      /$$ /$$$$$$$   /$$$$$$               
+# |  $$   /$$//$$__  $$| $$$    /$$$| $$__  $$ /$$__  $$              
+#  \  $$ /$$/| $$  \ $$| $$$$  /$$$$| $$  \ $$| $$  \ $$              
+#   \  $$$$/ | $$$$$$$$| $$ $$/$$ $$| $$$$$$$ | $$  | $$              
+#    \  $$/  | $$__  $$| $$  $$$| $$| $$__  $$| $$  | $$              
+#     | $$   | $$  | $$| $$\  $ | $$| $$  \ $$| $$  | $$              
+#     | $$   | $$  | $$| $$ \/  | $$| $$$$$$$/|  $$$$$$/              
+#     |__/   |__/  |__/|__/     |__/|_______/  \______/               
+#                                                                     
+# Version 5.3.0 Revision 23927 Hash (prev commit) 1730222ea           
+#                       Branch is                                     
+#            MPI+OpenMP+SLK+HDF5_MPI_IO Build                         
+#                http://www.yambo-code.eu                             
+#
+optics                           # [R] Linear Response optical properties
+em1s                             # [R][Xs] Statically Screened Interaction
+bss                              # [R] BSE solver
+bse                              # [R][BSE] Bethe Salpeter Equation.
+dipoles                          # [R] Oscillator strenghts (or dipoles)
+#DegFix                        # Force the code to impose the energy levels to respect their degeneracy
+Chimod= "HARTREE"                # [X] IP/Hartree/ALDA/LRC/PF/BSfxc
+BSKmod= "SEX"                    # [BSE] IP/Hartree/HF/ALDA/SEX/BSfxc
+BSEmod= "resonant"               # [BSE] resonant/retarded/coupling
+BSSmod= "h"                      # [BSS] (h)aydock/(d)iagonalization/(s)lepc/(i)nversion/(t)ddft`
+BSENGexx= 15001           RL    # [BSK] Exchange components
+BSENGBlk= -1           RL    # [BSK] Screened interaction block size [if -1 uses all the G-vectors of W(q,G,Gp)]
+#WehCpl                        # [BSK] eh interaction included also in coupling
+% BSEQptR
+ 1 | 1 |                             # [BSK] Transferred momenta range
+%
+% BSEBands
+    34 |  44 |                       # [BSK] Bands range
+%
+% BEnRange
+  0.00000 | 5.00000 |         eV    # [BSS] Energy range
+%
+% BDmRange
+ 0.0500000 | 0.0500000 |         eV    # [BSS] Damping range
+%
+BEnSteps= 1501                    # [BSS] Energy steps
+% BLongDir
+ 1.000000 | 0.000000 | 0.000000 |        # [BSS] [cc] Electric Field versor
+%
+BSEprop= "abs"                   # [BSS] Can be any among abs/jdos/kerr/asymm/anHAll/magn/dich/photolum/esrt
+KfnQPdb= "E < /g0w0_7_run/ndb.QP"      # [EXTQP BSK BSS] Database
+BSEdips= "none"                  # [BSS] Can be "trace/none" or "xy/xz/yz" to define off-diagonal rotation plane
+BSHayTrs=-0.020000               # [BSS] Relative [o/o] Haydock threshold. Strict(>0)/Average(<0)
+% BndsRnXs
+    1 |  300 |                       # [Xs] Polarization function bands
+%
+NGsBlkXs=5000                mHa    # [Xs] Response block size
+% LongDrXs
+ 1.000000 | 0.000000 | 0.000000 |        # [Xs] [cc] Electric Field
+%

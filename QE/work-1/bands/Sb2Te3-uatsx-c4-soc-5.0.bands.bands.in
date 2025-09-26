@@ -1,0 +1,5 @@
+&BANDS
+prefix        = 'Sb2Te3-uatsx-c4-soc-5.0'
+outdir        = 'tmp'
+filband       = './bands/Sb2Te3-uatsx-c4-soc-5.0.bands'  
+/

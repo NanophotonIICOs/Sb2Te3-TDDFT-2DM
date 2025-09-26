@@ -1,0 +1,40 @@
+#  __      __   ______   __       __  _______    ______               
+# |  \    /  \ /      \ |  \     /  \|       \  /      \              
+#  \$$\  /  $$|  $$$$$$\| $$\   /  $$| $$$$$$$\|  $$$$$$\             
+#   \$$\/  $$ | $$__| $$| $$$\ /  $$$| $$__/ $$| $$  | $$             
+#    \$$  $$  | $$    $$| $$$$\  $$$$| $$    $$| $$  | $$             
+#     \$$$$   | $$$$$$$$| $$\$$ $$ $$| $$$$$$$\| $$  | $$             
+#     | $$    | $$  | $$| $$ \$$$| $$| $$__/ $$| $$__/ $$             
+#     | $$    | $$  | $$| $$  \$ | $$| $$    $$ \$$    $$             
+#      \$$     \$$   \$$ \$$      \$$ \$$$$$$$   \$$$$$$              
+#                                                                     
+# Version 5.3.0 Revision 23927 Hash (prev commit) 1730222ea           
+#                    Branch is unknown                                
+#            MPI+OpenMP+SLK+HDF5_MPI_IO Build                         
+#                http://www.yambo-code.eu                             
+#
+optics                             # [R] Linear Response optical properties
+kernel                             # [R] Kernel
+chi                                # [R][CHI] Dyson equation for Chi.
+dipoles                            # [R] Oscillator strengths (or dipoles)
+DIP_Threads=8                  # [OPENMP/X]  threads
+X_Threads=8                      # [OPENMP/X]  threads
+Chimod= "HARTREE"                  # [X] IP/Hartree/ALDA/LRC/PF/BSfxc
+XfnQPdb= "E < /g0w0_7_run/ndb.QP" # Import quasiparticle energies
+NGsBlkXd= 5                Ry     # [Xd] Response block size
+% QpntsRXd
+  1 | 1 |                          # [Xd] Transferred momenta
+%
+% BndsRnXd
+   1 |  200 |                      # [Xd] Polarization function bands
+%
+% EnRngeXd
+  0.00000 | 5.00000 |      eV     # [Xd] Energy range
+%
+% DmRngeXd
+ 0.0500000 | 0.0500000 |      eV     # [Xd] Damping range
+%
+ETStpsXd= 1501                     # [Xd] Total Energy steps
+% LongDrXd
+ 1.000000 | 0.000000 | 0.000000 |  # [Xd] [cc] Electric Field
+%
