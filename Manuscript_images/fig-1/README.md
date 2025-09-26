@@ -1,12 +1,12 @@
 # Figure 1 (Atomic Structure + Band Structure)
 
-This folder contains the files used to generate Figure 1 of the manuscript, which combines the atomic structure of monolayer Sb$_2$Te$_3$ and its corresponding band structure.
+This folder contains the files used to generate Figure 1 of the manuscript, which combines the atomic structure of monolayer Sb2Te3 and its corresponding band structure.
 
 Purpose
 
 The figure is designed to provide a clear and consistent visualization of:
 
-	1.	The atomic structure of Sb$_2$Te$_3$ is displayed as a 5×5×1 supercell, with reference axes provided to clarify the orientation of the applied uniaxial strain.
+	1.	The atomic structure of Sb2Te3 is displayed as a 5×5×1 supercell, with reference axes provided to clarify the orientation of the applied uniaxial strain.
 	2.	The electronic band structure, computed with DFT and plotted (with Julia/PGFPlotsX.jl) for visual clarity.
 	3.	A final composition that joins both panels into a single figure, suitable for publication.
 
