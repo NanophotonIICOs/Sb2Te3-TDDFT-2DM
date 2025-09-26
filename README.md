@@ -7,7 +7,7 @@
 Research data and scripts repository for the paper:  
 **“Linear optical response of monolayer Sb2Te3 under uniaxial strain assessed by Time-Dependent Density Functional Theory” (2D Materials, IOP Publishing 2025).**  
 
-This repository provides **reproducibility assets**: input files (Quantum ESPRESSO & YAMBO), representative outputs, and the scripts used to process and plot the figures included in the article.  
+This repository provides **reproducibility resources**: input files (Quantum ESPRESSO & YAMBO), representative outputs, and the scripts used to process and plot the figures included in the article.  
 
 ---
 
