@@ -15,7 +15,7 @@ module load OpenMPI/4.1.4-GCC-12.2.0
 module load FFTW/3.3.10-GCC-12.2.0
 module load ScaLAPACK/2.2.0-gompi-2022b-fb
 module load OpenBLAS/0.3.21-GCC-12.2.0
-export LD_LIBRARY_PATH=/zfs-home/202401017n1/software/libxc-7.0.0/lib:$LD_LIBRARY_PATH
+# export LD_LIBRARY_PATH=
 #--------------------------------OpenMPI
 export OMP_NUM_THREADS=${SLURM_CPUS_PER_TASK}
 source ~/scripts/pms2slurm.sh

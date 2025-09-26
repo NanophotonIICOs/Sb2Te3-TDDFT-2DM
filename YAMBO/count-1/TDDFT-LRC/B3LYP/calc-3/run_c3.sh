@@ -14,7 +14,7 @@ module load OpenMPI/4.1.4-GCC-12.2.0
 module load FFTW/3.3.10-GCC-12.2.0
 module load ScaLAPACK/2.2.0-gompi-2022b-fb
 module load OpenBLAS/0.3.21-GCC-12.2.0
-export LD_LIBRARY_PATH=/zfs-home/202401017n/software/libxc-6.2.2/lib:$LD_LIBRARY_PATH
+# export LD_LIBRARY_PATH=
 #------------ INTEL
 # module load intel-compilers/2021.4.0
 # module load impi/2021.4.0-intel-compilers-2021.4.0
