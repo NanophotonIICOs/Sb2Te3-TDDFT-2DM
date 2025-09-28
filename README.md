@@ -1,13 +1,13 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
-    <td align="left" width="25%">
-      <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/Escudo.png" width="80%">
+    <td align="left">
+      <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/Escudo.png" width="25%">
     </td>
-    <td align="center" width="50%">
-      <img src="figure-workflow/Sb2Te3-sc.gif" width="60%">
+    <td align="center">
+      <img src="figure-workflow/Sb2Te3-sc.gif" width="20%">
     </td>
-    <td align="right" width="25%">
-      <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/uaslp-1.png" width="80%">
+    <td align="right">
+      <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/uaslp-1.png" width="25%">
     </td>
   </tr>
 </table>
