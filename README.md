@@ -1,16 +1,13 @@
-<div style="display: flex; justify-content: space-between; align-items: flex-start;">
-  <!-- Logo izquierda -->
-  <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/Escudo.png" 
-       alt="Escudo" width="120">
+<p align="left">
+  <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/Escudo.png" width="250">
+</p>
+<p align="right">
+  <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/uaslp-1.png" width="250">
+</p>
 
-  <!-- GIF al centro -->
-  <img src="figure-workflow/Sb2Te3-sc.gif" 
-       alt="GIF central" width="200">
-
-  <!-- Logo derecha -->
-  <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/uaslp-1.png" 
-       alt="UASLP" width="120">
-</div>
+<p align="center">
+  <img src="figure-workflow/Sb2Te3-sc.gif" width="250">
+</p>
 
 <br><br><br>
 # Sb2Te3-TDDFT-2DM  
