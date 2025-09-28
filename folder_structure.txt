@@ -1,895 +1,825 @@
-.
-├── folder_structure.txt
-├── Manuscript_images
-│   ├── fig-1
-│   │   ├── bands
-│   │   │   ├── plot_gga_wou_soc.pdf
-│   │   │   └── plot_gga_w_soc.pdf
-│   │   ├── build-oscar
-│   │   │   ├── fig-1.aux
-│   │   │   ├── fig-1.fdb_latexmk
-│   │   │   ├── fig-1.fls
-│   │   │   ├── fig-1.log
-│   │   │   ├── fig-1.pdf
-│   │   │   ├── fig_center.pdf
-│   │   │   └── Sb2Te3-sc.pdf
-│   │   ├── fig-1.tex
-│   │   ├── fig_center.tex
-│   │   ├── README.md
-│   │   ├── renders
-│   │   │   ├── render-uatsx.ipynb
-│   │   │   ├── Sb2Te3-scx.gif
-│   │   │   ├── Sb2Te3-uatsx-sc-0.png
-│   │   │   ├── Sb2Te3-uatsx-sc-10.png
-│   │   │   ├── Sb2Te3-uatsx-sc-11.png
-│   │   │   ├── Sb2Te3-uatsx-sc-12.png
-│   │   │   ├── Sb2Te3-uatsx-sc-13.png
-│   │   │   ├── Sb2Te3-uatsx-sc-14.png
-│   │   │   ├── Sb2Te3-uatsx-sc-15.png
-│   │   │   ├── Sb2Te3-uatsx-sc-16.png
-│   │   │   ├── Sb2Te3-uatsx-sc-17.png
-│   │   │   ├── Sb2Te3-uatsx-sc-18.png
-│   │   │   ├── Sb2Te3-uatsx-sc-19.png
-│   │   │   ├── Sb2Te3-uatsx-sc-1.png
-│   │   │   ├── Sb2Te3-uatsx-sc-20.png
-│   │   │   ├── Sb2Te3-uatsx-sc-21.png
-│   │   │   ├── Sb2Te3-uatsx-sc-22.png
-│   │   │   ├── Sb2Te3-uatsx-sc-23.png
-│   │   │   ├── Sb2Te3-uatsx-sc-24.png
-│   │   │   ├── Sb2Te3-uatsx-sc-25.png
-│   │   │   ├── Sb2Te3-uatsx-sc-26.png
-│   │   │   ├── Sb2Te3-uatsx-sc-27.png
-│   │   │   ├── Sb2Te3-uatsx-sc-28.png
-│   │   │   ├── Sb2Te3-uatsx-sc-29.png
-│   │   │   ├── Sb2Te3-uatsx-sc-2.png
-│   │   │   ├── Sb2Te3-uatsx-sc-3.png
-│   │   │   ├── Sb2Te3-uatsx-sc-4.png
-│   │   │   ├── Sb2Te3-uatsx-sc-5.png
-│   │   │   ├── Sb2Te3-uatsx-sc-6.png
-│   │   │   ├── Sb2Te3-uatsx-sc-7.png
-│   │   │   ├── Sb2Te3-uatsx-sc-8.png
-│   │   │   ├── Sb2Te3-uatsx-sc-9.png
-│   │   │   ├── Sb2Te3-uatsx-uc-0.png
-│   │   │   ├── Sb2Te3-uatsx-uc-10.png
-│   │   │   ├── Sb2Te3-uatsx-uc-11.png
-│   │   │   ├── Sb2Te3-uatsx-uc-12.png
-│   │   │   ├── Sb2Te3-uatsx-uc-13.png
-│   │   │   ├── Sb2Te3-uatsx-uc-14.png
-│   │   │   ├── Sb2Te3-uatsx-uc-15.png
-│   │   │   ├── Sb2Te3-uatsx-uc-16.png
-│   │   │   ├── Sb2Te3-uatsx-uc-17.png
-│   │   │   ├── Sb2Te3-uatsx-uc-18.png
-│   │   │   ├── Sb2Te3-uatsx-uc-19.png
-│   │   │   ├── Sb2Te3-uatsx-uc-1.png
-│   │   │   ├── Sb2Te3-uatsx-uc-20.png
-│   │   │   ├── Sb2Te3-uatsx-uc-21.png
-│   │   │   ├── Sb2Te3-uatsx-uc-22.png
-│   │   │   ├── Sb2Te3-uatsx-uc-23.png
-│   │   │   ├── Sb2Te3-uatsx-uc-24.png
-│   │   │   ├── Sb2Te3-uatsx-uc-25.png
-│   │   │   ├── Sb2Te3-uatsx-uc-26.png
-│   │   │   ├── Sb2Te3-uatsx-uc-27.png
-│   │   │   ├── Sb2Te3-uatsx-uc-28.png
-│   │   │   ├── Sb2Te3-uatsx-uc-29.png
-│   │   │   ├── Sb2Te3-uatsx-uc-2.png
-│   │   │   ├── Sb2Te3-uatsx-uc-3.png
-│   │   │   ├── Sb2Te3-uatsx-uc-4.png
-│   │   │   ├── Sb2Te3-uatsx-uc-5.png
-│   │   │   ├── Sb2Te3-uatsx-uc-6.png
-│   │   │   ├── Sb2Te3-uatsx-uc-7.png
-│   │   │   ├── Sb2Te3-uatsx-uc-8.png
-│   │   │   ├── Sb2Te3-uatsx-uc-9.png
-│   │   │   ├── Sb2Te3-ucx.gif
-│   │   │   └── Sb2Te3-ucx.pdf
-│   │   └── Sb2Te3-sc.tex
-│   ├── fig-2.pdf
-│   ├── fig-3.pdf
-│   ├── fig-4.pdf
-│   ├── fig-5.pdf
-│   └── fig-6.pdf
-├── QE
-│   ├── bands-pbe
-│   │   ├── nosoc
-│   │   │   ├── bands
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c1-5.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c1-5.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-5.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-5.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c1-5.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c3-0.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c3-0.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-0.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-0.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c3-0.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c3-1.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c3-1.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-1.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-1.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c3-1.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c3-2.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c3-2.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-2.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-2.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c3-2.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c3-3.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c3-3.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-3.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-3.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c3-3.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c3-4.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c3-4.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-4.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-4.0.bands.gnu
-│   │   │   │   ├── Sb2Te3-uatsx-c3-4.0.bands.rap
-│   │   │   │   ├── Sb2Te3-uatsx-c3-5.0.bands
-│   │   │   │   ├── Sb2Te3-uatsx-c3-5.0.bands.bands.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-5.0.bands.bands.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-5.0.bands.gnu
-│   │   │   │   └── Sb2Te3-uatsx-c3-5.0.bands.rap
-│   │   │   ├── bands-json
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.json
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.json
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.json
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.json
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.json
-│   │   │   │   └── Sb2Te3-uatsx-c1-5.0.json
-│   │   │   ├── nscf
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-5.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-5.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-0.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-0.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-1.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-1.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-2.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-2.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-3.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-3.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-4.0.nscf.bands.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-4.0.nscf.bands.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-5.0.nscf.bands.pw.in
-│   │   │   │   └── Sb2Te3-uatsx-c3-5.0.nscf.bands.pw.out
-│   │   │   ├── scf
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-0.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-1.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-2.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-3.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-4.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c1-5.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c1-5.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-0.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-0.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-1.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-1.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-2.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-2.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-3.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-3.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-4.0.scf.pw.in
-│   │   │   │   ├── Sb2Te3-uatsx-c3-4.0.scf.pw.out
-│   │   │   │   ├── Sb2Te3-uatsx-c3-5.0.scf.pw.in
-│   │   │   │   └── Sb2Te3-uatsx-c3-5.0.scf.pw.out
-│   │   │   └── uatsx-c1.sh
-│   │   └── soc
-│   │       ├── bands
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.bands
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.bands.bands.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.bands.bands.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.bands.gnu
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.bands.rap
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.bands
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.bands.bands.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.bands.bands.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.bands.gnu
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.bands.rap
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.bands
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.bands.bands.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.bands.bands.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.bands.gnu
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.bands.rap
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.bands
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.bands.bands.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.bands.bands.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.bands.gnu
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.bands.rap
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.bands
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.bands.bands.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.bands.bands.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.bands.gnu
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.bands.rap
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-5.0.bands
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-5.0.bands.bands.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-5.0.bands.bands.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-5.0.bands.gnu
-│   │       │   └── Sb2Te3-uatsx-c2-soc-5.0.bands.rap
-│   │       ├── bands-json
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.json
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.json
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.json
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.json
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.json
-│   │       │   └── Sb2Te3-uatsx-c2-soc-5.0.json
-│   │       ├── nscf
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.nscf.bands.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.nscf.bands.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.nscf.bands.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.nscf.bands.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.nscf.bands.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.nscf.bands.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.nscf.bands.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.nscf.bands.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.nscf.bands.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.nscf.bands.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-5.0.nscf.bands.pw.in
-│   │       │   └── Sb2Te3-uatsx-c2-soc-5.0.nscf.bands.pw.out
-│   │       ├── scf
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.scf.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-0.0.scf.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.scf.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-1.0.scf.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.scf.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-2.0.scf.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.scf.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-3.0.scf.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.scf.pw.in
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-4.0.scf.pw.out
-│   │       │   ├── Sb2Te3-uatsx-c2-soc-5.0.scf.pw.in
-│   │       │   └── Sb2Te3-uatsx-c2-soc-5.0.scf.pw.out
-│   │       └── uatsx-c2-soc.sh
-│   ├── bands-processing.ipynb
-│   ├── pbe-yambo-inputs
-│   │   ├── G0W0-BSE
-│   │   │   └── uatsx-c13-yambo.sh
-│   │   └── TDDFT-LRC
-│   │       ├── B3LYP
-│   │       │   ├── b3lyp-c1.sh
-│   │       │   ├── nscf
-│   │       │   │   ├── Sb2Te3-uatsx-c1-0.0.nscf.pw.in
-│   │       │   │   ├── Sb2Te3-uatsx-c1-0.0.nscf.pw.out
-│   │       │   │   ├── Sb2Te3-uatsx-c1-1.0.nscf.pw.in
-│   │       │   │   ├── Sb2Te3-uatsx-c1-1.0.nscf.pw.out
-│   │       │   │   ├── Sb2Te3-uatsx-c1-2.0.nscf.pw.in
-│   │       │   │   ├── Sb2Te3-uatsx-c1-2.0.nscf.pw.out
-│   │       │   │   ├── Sb2Te3-uatsx-c1-3.0.nscf.pw.in
-│   │       │   │   ├── Sb2Te3-uatsx-c1-3.0.nscf.pw.out
-│   │       │   │   ├── Sb2Te3-uatsx-c1-4.0.nscf.pw.in
-│   │       │   │   ├── Sb2Te3-uatsx-c1-4.0.nscf.pw.out
-│   │       │   │   ├── Sb2Te3-uatsx-c1-5.0.nscf.pw.in
-│   │       │   │   └── Sb2Te3-uatsx-c1-5.0.nscf.pw.out
-│   │       │   └── scf
-│   │       │       ├── Sb2Te3-uatsx-c1-0.0.scf.pw.in
-│   │       │       ├── Sb2Te3-uatsx-c1-0.0.scf.pw.out
-│   │       │       ├── Sb2Te3-uatsx-c1-1.0.scf.pw.in
-│   │       │       ├── Sb2Te3-uatsx-c1-1.0.scf.pw.out
-│   │       │       ├── Sb2Te3-uatsx-c1-2.0.scf.pw.in
-│   │       │       ├── Sb2Te3-uatsx-c1-2.0.scf.pw.out
-│   │       │       ├── Sb2Te3-uatsx-c1-3.0.scf.pw.in
-│   │       │       ├── Sb2Te3-uatsx-c1-3.0.scf.pw.out
-│   │       │       ├── Sb2Te3-uatsx-c1-4.0.scf.pw.in
-│   │       │       ├── Sb2Te3-uatsx-c1-4.0.scf.pw.out
-│   │       │       ├── Sb2Te3-uatsx-c1-5.0.scf.pw.in
-│   │       │       └── Sb2Te3-uatsx-c1-5.0.scf.pw.out
-│   │       └── Gau-PBE
-│   │           ├── gaup-c4.sh
-│   │           ├── nscf
-│   │           │   ├── Sb2Te3-uatsx-c4-0.0.nscf.pw.in
-│   │           │   ├── Sb2Te3-uatsx-c4-0.0.nscf.pw.out
-│   │           │   ├── Sb2Te3-uatsx-c4-1.0.nscf.pw.in
-│   │           │   ├── Sb2Te3-uatsx-c4-1.0.nscf.pw.out
-│   │           │   ├── Sb2Te3-uatsx-c4-2.0.nscf.pw.in
-│   │           │   ├── Sb2Te3-uatsx-c4-2.0.nscf.pw.out
-│   │           │   ├── Sb2Te3-uatsx-c4-3.0.nscf.pw.in
-│   │           │   ├── Sb2Te3-uatsx-c4-3.0.nscf.pw.out
-│   │           │   ├── Sb2Te3-uatsx-c4-4.0.nscf.pw.in
-│   │           │   ├── Sb2Te3-uatsx-c4-4.0.nscf.pw.out
-│   │           │   ├── Sb2Te3-uatsx-c4-5.0.nscf.pw.in
-│   │           │   └── Sb2Te3-uatsx-c4-5.0.nscf.pw.out
-│   │           └── scf
-│   │               ├── Sb2Te3-uatsx-c4-0.0.scf.pw.in
-│   │               ├── Sb2Te3-uatsx-c4-0.0.scf.pw.out
-│   │               ├── Sb2Te3-uatsx-c4-1.0.scf.pw.in
-│   │               ├── Sb2Te3-uatsx-c4-1.0.scf.pw.out
-│   │               ├── Sb2Te3-uatsx-c4-2.0.scf.pw.in
-│   │               ├── Sb2Te3-uatsx-c4-2.0.scf.pw.out
-│   │               ├── Sb2Te3-uatsx-c4-3.0.scf.pw.in
-│   │               ├── Sb2Te3-uatsx-c4-3.0.scf.pw.out
-│   │               ├── Sb2Te3-uatsx-c4-4.0.scf.pw.in
-│   │               ├── Sb2Te3-uatsx-c4-4.0.scf.pw.out
-│   │               ├── Sb2Te3-uatsx-c4-5.0.scf.pw.in
-│   │               └── Sb2Te3-uatsx-c4-5.0.scf.pw.out
-│   └── README.md
-├── README.md
-├── scripts-plots
-│   ├── bands_plots_g0w0.ipynb
-│   ├── bands_plots_pbe.ipynb
-│   ├── hybrid_gaps.ipynb
-│   └── optical_plots.ipynb
-├── tree.txt
-└── YAMBO
-    ├── acct-1
-    │   ├── BSE
-    │   │   ├── bse-eps-outputs
-    │   │   │   ├── o-bse_6_run.eel_q1_haydock_bse
-    │   │   │   ├── o-bse_6_run.eps_q1_haydock_bse
-    │   │   │   ├── o-bse_7_run.eel_q1_haydock_bse
-    │   │   │   └── o-bse_7_run.eps_q1_haydock_bse
-    │   │   └── bse-inptus
-    │   │       ├── bse_6.in
-    │   │       └── bse_7.in
-    │   ├── G0W0
-    │   │   ├── g0w0-bands-out
-    │   │   │   ├── o-g0w0_bands_3_run.bands_interpolated_01
-    │   │   │   ├── o-g0w0_bands_4_run.bands_interpolated
-    │   │   │   ├── o-g0w0_bands_5_run.bands_interpolated
-    │   │   │   ├── o-g0w0_bands_6_run.bands_interpolated
-    │   │   │   ├── o-g0w0_bands_7_run.bands_interpolated
-    │   │   │   ├── o-g0w0_bands_7_run.bands_interpolated_01
-    │   │   │   └── o-g0w0_bands_7_run.bands_interpolated_02
-    │   │   └── g0w0-inputs
-    │   │       ├── g0w0_4.in
-    │   │       ├── g0w0_5.in
-    │   │       ├── g0w0_6.in
-    │   │       └── g0w0_7.in
-    │   ├── Sb2Te3_eps.ipynb
-    │   ├── Sb2Te3_QP.ipynb
-    │   └── TDDFT-LRC
-    │       ├── B3LYP
-    │       │   ├── calc-1
-    │       │   │   ├── ox_-0.1_out
-    │       │   │   │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.1.in_ox_-0.1_run
-    │       │   │   │   └── r-ox_-0.1_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.2_out
-    │       │   │   │   ├── o-ox_-0.2_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.2_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.2.in_ox_-0.2_run
-    │       │   │   │   └── r-ox_-0.2_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.3_out
-    │       │   │   │   ├── o-ox_-0.3_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.3_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.3.in_ox_-0.3_run
-    │       │   │   │   └── r-ox_-0.3_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.4_out
-    │       │   │   │   ├── o-ox_-0.4_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.4_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.4.in_ox_-0.4_run
-    │       │   │   │   └── r-ox_-0.4_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.5_out
-    │       │   │   │   ├── o-ox_-0.5_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.5_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.5.in_ox_-0.5_run
-    │       │   │   │   └── r-ox_-0.5_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.6_out
-    │       │   │   │   ├── o-ox_-0.6_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.6_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.6.in_ox_-0.6_run
-    │       │   │   │   └── r-ox_-0.6_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.7_out
-    │       │   │   │   ├── o-ox_-0.7_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.7_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.7.in_ox_-0.7_run
-    │       │   │   │   └── r-ox_-0.7_run_optics_chi_tddft
-    │       │   │   └── run_c1.sh
-    │       │   ├── calc-2
-    │       │   │   ├── ox_-0.1_out
-    │       │   │   │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.1.in_ox_-0.1_run
-    │       │   │   │   └── r-ox_-0.1_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.2_out
-    │       │   │   │   ├── o-ox_-0.2_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.2_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.2.in_ox_-0.2_run
-    │       │   │   │   └── r-ox_-0.2_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.3_out
-    │       │   │   │   ├── o-ox_-0.3_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.3_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.3.in_ox_-0.3_run
-    │       │   │   │   └── r-ox_-0.3_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.4_out
-    │       │   │   │   ├── o-ox_-0.4_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.4_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.4.in_ox_-0.4_run
-    │       │   │   │   └── r-ox_-0.4_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.5_out
-    │       │   │   │   ├── o-ox_-0.5_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.5_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.5.in_ox_-0.5_run
-    │       │   │   │   └── r-ox_-0.5_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.6_out
-    │       │   │   │   ├── o-ox_-0.6_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.6_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.6.in_ox_-0.6_run
-    │       │   │   │   └── r-ox_-0.6_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.7_out
-    │       │   │   │   ├── o-ox_-0.7_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.7_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.7.in_ox_-0.7_run
-    │       │   │   │   └── r-ox_-0.7_run_optics_chi_tddft
-    │       │   │   └── run_c2.sh
-    │       │   ├── calc-3
-    │       │   │   ├── ox_-0.1_out
-    │       │   │   │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.1.in_ox_-0.1_run
-    │       │   │   │   └── r-ox_-0.1_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.2_out
-    │       │   │   │   ├── o-ox_-0.2_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.2_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.2.in_ox_-0.2_run
-    │       │   │   │   └── r-ox_-0.2_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.3_out
-    │       │   │   │   ├── o-ox_-0.3_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.3_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.3.in_ox_-0.3_run
-    │       │   │   │   └── r-ox_-0.3_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.4_out
-    │       │   │   │   ├── o-ox_-0.4_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.4_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.4.in_ox_-0.4_run
-    │       │   │   │   └── r-ox_-0.4_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.5_out
-    │       │   │   │   ├── o-ox_-0.5_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.5_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.5.in_ox_-0.5_run
-    │       │   │   │   └── r-ox_-0.5_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.6_out
-    │       │   │   │   ├── o-ox_-0.6_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.6_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.6.in_ox_-0.6_run
-    │       │   │   │   └── r-ox_-0.6_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.7_out
-    │       │   │   │   ├── o-ox_-0.7_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.7_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.7.in_ox_-0.7_run
-    │       │   │   │   └── r-ox_-0.7_run_optics_chi_tddft
-    │       │   │   └── run_c3.sh
-    │       │   ├── calc-4
-    │       │   │   ├── o1-0.0
-    │       │   │   │   ├── ox-o1-0.0-out
-    │       │   │   │   │   ├── o-ox-o1-0.0-run.eel_q1_inv_LRC_dyson
-    │       │   │   │   │   ├── o-ox-o1-0.0-run.eps_q1_inv_LRC_dyson
-    │       │   │   │   │   ├── ox-o1-0.0.in_ox-o1-0.0-run
-    │       │   │   │   │   └── r-ox-o1-0.0-run_optics_chi_tddft
-    │       │   │   │   └── oy-o1-0.0-out
-    │       │   │   │       ├── o-oy-o1-0.0-run.eel_q1_inv_LRC_dyson
-    │       │   │   │       ├── o-oy-o1-0.0-run.eps_q1_inv_LRC_dyson
-    │       │   │   │       ├── oy-o1-0.0.in_oy-o1-0.0-run
-    │       │   │   │       └── r-oy-o1-0.0-run_optics_chi_tddft
-    │       │   │   ├── o1-1.0
-    │       │   │   │   ├── ox-o1-1.0-out
-    │       │   │   │   │   ├── o-ox-o1-1.0-run.eel_q1_inv_LRC_dyson
-    │       │   │   │   │   ├── o-ox-o1-1.0-run.eps_q1_inv_LRC_dyson
-    │       │   │   │   │   ├── ox-o1-1.0.in_ox-o1-1.0-run
-    │       │   │   │   │   └── r-ox-o1-1.0-run_optics_chi_tddft
-    │       │   │   │   └── oy-o1-1.0-out
-    │       │   │   │       ├── o-oy-o1-1.0-run.eel_q1_inv_LRC_dyson
-    │       │   │   │       ├── o-oy-o1-1.0-run.eps_q1_inv_LRC_dyson
-    │       │   │   │       ├── oy-o1-1.0.in_oy-o1-1.0-run
-    │       │   │   │       └── r-oy-o1-1.0-run_optics_chi_tddft
-    │       │   │   └── optics-1.sh
-    │       │   ├── calc-5
-    │       │   │   ├── ox_-0.1_out
-    │       │   │   │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.1.in_ox_-0.1_run
-    │       │   │   │   └── r-ox_-0.1_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.2_out
-    │       │   │   │   ├── o-ox_-0.2_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.2_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.2.in_ox_-0.2_run
-    │       │   │   │   └── r-ox_-0.2_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.3_out
-    │       │   │   │   ├── o-ox_-0.3_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.3_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.3.in_ox_-0.3_run
-    │       │   │   │   └── r-ox_-0.3_run_optics_chi_tddft
-    │       │   │   ├── ox_-0.4_out
-    │       │   │   │   ├── o-ox_-0.4_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox_-0.4_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox_-0.4.in_ox_-0.4_run
-    │       │   │   │   └── r-ox_-0.4_run_optics_chi_tddft
-    │       │   │   └── run_c5.sh
-    │       │   └── calc-6
-    │       │       ├── ox_-0.1_out
-    │       │       │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │       │       │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │       │       │   ├── ox_-0.1.in_ox_-0.1_run
-    │       │       │   └── r-ox_-0.1_run_optics_chi_tddft
-    │       │       ├── ox_-0.2_out
-    │       │       │   ├── o-ox_-0.2_run.eel_q1_inv_LRC_dyson
-    │       │       │   ├── o-ox_-0.2_run.eps_q1_inv_LRC_dyson
-    │       │       │   ├── ox_-0.2.in_ox_-0.2_run
-    │       │       │   └── r-ox_-0.2_run_optics_chi_tddft
-    │       │       ├── ox_-0.3_out
-    │       │       │   ├── o-ox_-0.3_run.eel_q1_inv_LRC_dyson
-    │       │       │   ├── o-ox_-0.3_run.eps_q1_inv_LRC_dyson
-    │       │       │   ├── ox_-0.3.in_ox_-0.3_run
-    │       │       │   └── r-ox_-0.3_run_optics_chi_tddft
-    │       │       ├── ox_-0.4_out
-    │       │       │   ├── o-ox_-0.4_run.eel_q1_inv_LRC_dyson
-    │       │       │   ├── o-ox_-0.4_run.eps_q1_inv_LRC_dyson
-    │       │       │   ├── ox_-0.4.in_ox_-0.4_run
-    │       │       │   └── r-ox_-0.4_run_optics_chi_tddft
-    │       │       └── run_c6.sh
-    │       └── Gau-PBE
-    │           ├── calc-1
-    │           │   ├── ox_-0.1_out
-    │           │   │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.1.in_ox_-0.1_run
-    │           │   │   └── r-ox_-0.1_run_optics_chi_tddft
-    │           │   ├── ox_-0.2_out
-    │           │   │   ├── o-ox_-0.2_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.2_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.2.in_ox_-0.2_run
-    │           │   │   └── r-ox_-0.2_run_optics_chi_tddft
-    │           │   ├── ox_-0.3_out
-    │           │   │   ├── o-ox_-0.3_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.3_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.3.in_ox_-0.3_run
-    │           │   │   └── r-ox_-0.3_run_optics_chi_tddft
-    │           │   ├── ox_-0.4_out
-    │           │   │   ├── o-ox_-0.4_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.4_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.4.in_ox_-0.4_run
-    │           │   │   └── r-ox_-0.4_run_optics_chi_tddft
-    │           │   └── run_c1.sh
-    │           ├── calc-2
-    │           │   ├── ox_-0.1_out
-    │           │   │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.1.in_ox_-0.1_run
-    │           │   │   └── r-ox_-0.1_run_optics_chi_tddft
-    │           │   ├── ox_-0.2_out
-    │           │   │   ├── o-ox_-0.2_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.2_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.2.in_ox_-0.2_run
-    │           │   │   └── r-ox_-0.2_run_optics_chi_tddft
-    │           │   ├── ox_-0.3_out
-    │           │   │   ├── o-ox_-0.3_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.3_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.3.in_ox_-0.3_run
-    │           │   │   └── r-ox_-0.3_run_optics_chi_tddft
-    │           │   ├── ox_-0.4_out
-    │           │   │   ├── o-ox_-0.4_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.4_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.4.in_ox_-0.4_run
-    │           │   │   └── r-ox_-0.4_run_optics_chi_tddft
-    │           │   └── run_c2.sh
-    │           ├── calc-3
-    │           │   ├── ox_-0.1_out
-    │           │   │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.1.in_ox_-0.1_run
-    │           │   │   └── r-ox_-0.1_run_optics_chi_tddft
-    │           │   ├── ox_-0.2_out
-    │           │   │   ├── ox_-0.2.in_ox_-0.2_run
-    │           │   │   └── r-ox_-0.2_run_optics_chi_tddft
-    │           │   └── run_c3.sh
-    │           ├── calc-4
-    │           │   └── optics-4.sh
-    │           ├── calc-5
-    │           │   ├── ox_-0.1_out
-    │           │   │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.1.in_ox_-0.1_run
-    │           │   │   └── r-ox_-0.1_run_optics_chi_tddft
-    │           │   ├── ox_-0.2_out
-    │           │   │   ├── o-ox_-0.2_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.2_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.2.in_ox_-0.2_run
-    │           │   │   └── r-ox_-0.2_run_optics_chi_tddft
-    │           │   ├── ox_-0.3_out
-    │           │   │   ├── o-ox_-0.3_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.3_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.3.in_ox_-0.3_run
-    │           │   │   └── r-ox_-0.3_run_optics_chi_tddft
-    │           │   ├── ox_-0.4_out
-    │           │   │   ├── o-ox_-0.4_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.4_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.4.in_ox_-0.4_run
-    │           │   │   └── r-ox_-0.4_run_optics_chi_tddft
-    │           │   └── run_c5.sh
-    │           └── calc-6
-    │               └── run_c6.sh
-    ├── acct-2
-    │   ├── hybrid-gaps-data
-    │   │   └── gaps_b3lyp_gaup_1.dat
-    │   ├── RPA
-    │   │   ├── rpa_qp_1.in
-    │   │   ├── rpa_qp_1_out
-    │   │   │   ├── o-rpa_qp_1_run.eel_q1_inv_rpa_dyson
-    │   │   │   ├── o-rpa_qp_1_run.eps_q1_inv_rpa_dyson
-    │   │   │   ├── o-rpa_qp_1_run.-g0w0_5_run.data
-    │   │   │   ├── o-rpa_qp_1_run.-g0w0_5_run.fit
-    │   │   │   ├── rpa_qp_1.in_rpa_qp_1_run
-    │   │   │   └── r-rpa_qp_1_run_optics_dipoles_kernel_chi
-    │   │   ├── rpa_qp_2.in
-    │   │   └── rpa_qp_2_out
-    │   │       ├── o-rpa_qp_2_run.eel_q1_inv_rpa_dyson
-    │   │       ├── o-rpa_qp_2_run.eps_q1_inv_rpa_dyson
-    │   │       ├── o-rpa_qp_2_run.-g0w0_5_run.data
-    │   │       ├── o-rpa_qp_2_run.-g0w0_5_run.fit
-    │   │       ├── rpa_qp_2.in_rpa_qp_2_run
-    │   │       └── r-rpa_qp_2_run_optics_dipoles_kernel_chi
-    │   ├── Sb2Te3_eps.ipynb
-    │   ├── Sb2Te3_gaps.ipynb
-    │   └── TDDFT-LRC
-    │       ├── B3LYP
-    │       │   ├── data-to-plot
-    │       │   │   ├── o-ox-eps-b3lyp-0.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-ox-eps-b3lyp-1.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-ox-eps-b3lyp-2.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-ox-eps-b3lyp-3.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-ox-eps-b3lyp-4.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-ox-eps-b3lyp-5.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-oy-eps-b3lyp-0.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-oy-eps-b3lyp-1.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-oy-eps-b3lyp-2.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-oy-eps-b3lyp-3.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   ├── o-oy-eps-b3lyp-4.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   └── o-oy-eps-b3lyp-5.0_run.eps_q1_inv_LRC_dyson
-    │       │   ├── eps-b3lyp-0.0
-    │       │   │   ├── ox-eps-b3lyp-0.0_out
-    │       │   │   │   ├── o-ox-eps-b3lyp-0.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox-eps-b3lyp-0.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox-eps-b3lyp-0.0.in_ox-eps-b3lyp-0.0_run
-    │       │   │   │   └── r-ox-eps-b3lyp-0.0_run_optics_chi_tddft
-    │       │   │   ├── oy-eps-b3lyp-0.0_out
-    │       │   │   │   ├── o-oy-eps-b3lyp-0.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-oy-eps-b3lyp-0.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── oy-eps-b3lyp-0.0.in_oy-eps-b3lyp-0.0_run
-    │       │   │   │   └── r-oy-eps-b3lyp-0.0_run_optics_chi_tddft
-    │       │   │   └── r_setup
-    │       │   ├── eps-b3lyp-1.0
-    │       │   │   ├── ox-eps-b3lyp-1.0_out
-    │       │   │   │   ├── o-ox-eps-b3lyp-1.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox-eps-b3lyp-1.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox-eps-b3lyp-1.0.in_ox-eps-b3lyp-1.0_run
-    │       │   │   │   └── r-ox-eps-b3lyp-1.0_run_optics_chi_tddft
-    │       │   │   ├── oy-eps-b3lyp-1.0_out
-    │       │   │   │   ├── o-oy-eps-b3lyp-1.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-oy-eps-b3lyp-1.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── oy-eps-b3lyp-1.0.in_oy-eps-b3lyp-1.0_run
-    │       │   │   │   └── r-oy-eps-b3lyp-1.0_run_optics_chi_tddft
-    │       │   │   └── r_setup
-    │       │   ├── eps-b3lyp-2.0
-    │       │   │   ├── ox-eps-b3lyp-2.0_out
-    │       │   │   │   ├── o-ox-eps-b3lyp-2.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox-eps-b3lyp-2.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox-eps-b3lyp-2.0.in_ox-eps-b3lyp-2.0_run
-    │       │   │   │   └── r-ox-eps-b3lyp-2.0_run_optics_chi_tddft
-    │       │   │   ├── oy-eps-b3lyp-2.0_out
-    │       │   │   │   ├── o-oy-eps-b3lyp-2.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-oy-eps-b3lyp-2.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── oy-eps-b3lyp-2.0.in_oy-eps-b3lyp-2.0_run
-    │       │   │   │   └── r-oy-eps-b3lyp-2.0_run_optics_chi_tddft
-    │       │   │   └── r_setup
-    │       │   ├── eps-b3lyp-3.0
-    │       │   │   ├── ox-eps-b3lyp-3.0_out
-    │       │   │   │   ├── o-ox-eps-b3lyp-3.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox-eps-b3lyp-3.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox-eps-b3lyp-3.0.in_ox-eps-b3lyp-3.0_run
-    │       │   │   │   └── r-ox-eps-b3lyp-3.0_run_optics_chi_tddft
-    │       │   │   ├── oy-eps-b3lyp-3.0_out
-    │       │   │   │   ├── o-oy-eps-b3lyp-3.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-oy-eps-b3lyp-3.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── oy-eps-b3lyp-3.0.in_oy-eps-b3lyp-3.0_run
-    │       │   │   │   └── r-oy-eps-b3lyp-3.0_run_optics_chi_tddft
-    │       │   │   └── r_setup
-    │       │   ├── eps-b3lyp-4.0
-    │       │   │   ├── ox-eps-b3lyp-4.0_out
-    │       │   │   │   ├── o-ox-eps-b3lyp-4.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox-eps-b3lyp-4.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox-eps-b3lyp-4.0.in_ox-eps-b3lyp-4.0_run
-    │       │   │   │   └── r-ox-eps-b3lyp-4.0_run_optics_chi_tddft
-    │       │   │   ├── oy-eps-b3lyp-4.0_out
-    │       │   │   │   ├── o-oy-eps-b3lyp-4.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-oy-eps-b3lyp-4.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── oy-eps-b3lyp-4.0.in_oy-eps-b3lyp-4.0_run
-    │       │   │   │   └── r-oy-eps-b3lyp-4.0_run_optics_chi_tddft
-    │       │   │   └── r_setup
-    │       │   ├── eps-b3lyp-5.0
-    │       │   │   ├── ox-eps-b3lyp-5.0_out
-    │       │   │   │   ├── o-ox-eps-b3lyp-5.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-ox-eps-b3lyp-5.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── ox-eps-b3lyp-5.0.in_ox-eps-b3lyp-5.0_run
-    │       │   │   │   └── r-ox-eps-b3lyp-5.0_run_optics_chi_tddft
-    │       │   │   ├── oy-eps-b3lyp-5.0_out
-    │       │   │   │   ├── o-oy-eps-b3lyp-5.0_run.eel_q1_inv_LRC_dyson
-    │       │   │   │   ├── o-oy-eps-b3lyp-5.0_run.eps_q1_inv_LRC_dyson
-    │       │   │   │   ├── oy-eps-b3lyp-5.0.in_oy-eps-b3lyp-5.0_run
-    │       │   │   │   └── r-oy-eps-b3lyp-5.0_run_optics_chi_tddft
-    │       │   │   └── r_setup
-    │       │   └── tddft-b3lyp-c2.sh
-    │       └── Gau-PBE
-    │           ├── calc-1
-    │           │   ├── ox_-0.1_out
-    │           │   │   ├── o-ox_-0.1_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.1_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.1.in_ox_-0.1_run
-    │           │   │   └── r-ox_-0.1_run_optics_chi_tddft
-    │           │   ├── ox_-0.2_out
-    │           │   │   ├── o-ox_-0.2_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.2_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.2.in_ox_-0.2_run
-    │           │   │   └── r-ox_-0.2_run_optics_chi_tddft
-    │           │   ├── ox_-0.3_out
-    │           │   │   ├── o-ox_-0.3_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.3_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.3.in_ox_-0.3_run
-    │           │   │   └── r-ox_-0.3_run_optics_chi_tddft
-    │           │   ├── ox_-0.4_out
-    │           │   │   ├── o-ox_-0.4_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.4_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.4.in_ox_-0.4_run
-    │           │   │   └── r-ox_-0.4_run_optics_chi_tddft
-    │           │   ├── ox_-0.5_out
-    │           │   │   ├── o-ox_-0.5_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.5_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.5.in_ox_-0.5_run
-    │           │   │   └── r-ox_-0.5_run_optics_chi_tddft
-    │           │   ├── ox_-0.6_out
-    │           │   │   ├── o-ox_-0.6_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.6_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.6.in_ox_-0.6_run
-    │           │   │   └── r-ox_-0.6_run_optics_chi_tddft
-    │           │   ├── ox_-0.7_out
-    │           │   │   ├── o-ox_-0.7_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_-0.7_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_-0.7.in_ox_-0.7_run
-    │           │   │   └── r-ox_-0.7_run_optics_chi_tddft
-    │           │   └── tddft-c1.sh
-    │           ├── calc-2
-    │           │   ├── ox_3_Ry_out
-    │           │   │   ├── o-ox_3_Ry_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_3_Ry_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_3_Ry.in_ox_3_Ry_run
-    │           │   │   └── r-ox_3_Ry_run_optics_chi_tddft
-    │           │   ├── ox_4_Ry_out
-    │           │   │   ├── o-ox_4_Ry_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_4_Ry_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_4_Ry.in_ox_4_Ry_run
-    │           │   │   └── r-ox_4_Ry_run_optics_chi_tddft
-    │           │   ├── ox_5_Ry_out
-    │           │   │   ├── o-ox_5_Ry_run.eel_q1_inv_LRC_dyson
-    │           │   │   ├── o-ox_5_Ry_run.eps_q1_inv_LRC_dyson
-    │           │   │   ├── ox_5_Ry.in_ox_5_Ry_run
-    │           │   │   └── r-ox_5_Ry_run_optics_chi_tddft
-    │           │   ├── ox_6_Ry_out
-    │           │   │   ├── ox_6_Ry.in_ox_6_Ry_run
-    │           │   │   └── r-ox_6_Ry_run_optics_chi_tddft
-    │           │   └── tddft-c2.sh
-    │           ├── calc-3
-    │           │   └── tddft-c3.sh
-    │           ├── calc-4
-    │           │   ├── eps-gaup-0.0
-    │           │   │   ├── ox-eps-gaup-0.0_out
-    │           │   │   │   ├── o-ox-eps-gaup-0.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-ox-eps-gaup-0.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── ox-eps-gaup-0.0.in_ox-eps-gaup-0.0_run
-    │           │   │   │   └── r-ox-eps-gaup-0.0_run_optics_chi_tddft
-    │           │   │   ├── oy-eps-gaup-0.0_out
-    │           │   │   │   ├── o-oy-eps-gaup-0.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-oy-eps-gaup-0.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── oy-eps-gaup-0.0.in_oy-eps-gaup-0.0_run
-    │           │   │   │   └── r-oy-eps-gaup-0.0_run_optics_chi_tddft
-    │           │   │   └── r_setup
-    │           │   ├── eps-gaup-1.0
-    │           │   │   ├── ox-eps-gaup-1.0_out
-    │           │   │   │   ├── o-ox-eps-gaup-1.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-ox-eps-gaup-1.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── ox-eps-gaup-1.0.in_ox-eps-gaup-1.0_run
-    │           │   │   │   └── r-ox-eps-gaup-1.0_run_optics_chi_tddft
-    │           │   │   ├── oy-eps-gaup-1.0_out
-    │           │   │   │   ├── o-oy-eps-gaup-1.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-oy-eps-gaup-1.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── oy-eps-gaup-1.0.in_oy-eps-gaup-1.0_run
-    │           │   │   │   └── r-oy-eps-gaup-1.0_run_optics_chi_tddft
-    │           │   │   └── r_setup
-    │           │   ├── eps-gaup-2.0
-    │           │   │   ├── ox-eps-gaup-2.0_out
-    │           │   │   │   ├── o-ox-eps-gaup-2.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-ox-eps-gaup-2.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── ox-eps-gaup-2.0.in_ox-eps-gaup-2.0_run
-    │           │   │   │   └── r-ox-eps-gaup-2.0_run_optics_chi_tddft
-    │           │   │   ├── oy-eps-gaup-2.0_out
-    │           │   │   │   ├── o-oy-eps-gaup-2.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-oy-eps-gaup-2.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── oy-eps-gaup-2.0.in_oy-eps-gaup-2.0_run
-    │           │   │   │   └── r-oy-eps-gaup-2.0_run_optics_chi_tddft
-    │           │   │   └── r_setup
-    │           │   ├── eps-gaup-3.0
-    │           │   │   ├── ox-eps-gaup-3.0_out
-    │           │   │   │   ├── o-ox-eps-gaup-3.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-ox-eps-gaup-3.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── ox-eps-gaup-3.0.in_ox-eps-gaup-3.0_run
-    │           │   │   │   └── r-ox-eps-gaup-3.0_run_optics_chi_tddft
-    │           │   │   ├── oy-eps-gaup-3.0_out
-    │           │   │   │   ├── o-oy-eps-gaup-3.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-oy-eps-gaup-3.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── oy-eps-gaup-3.0.in_oy-eps-gaup-3.0_run
-    │           │   │   │   └── r-oy-eps-gaup-3.0_run_optics_chi_tddft
-    │           │   │   └── r_setup
-    │           │   ├── eps-gaup-4.0
-    │           │   │   ├── ox-eps-gaup-4.0_out
-    │           │   │   │   ├── o-ox-eps-gaup-4.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-ox-eps-gaup-4.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── ox-eps-gaup-4.0.in_ox-eps-gaup-4.0_run
-    │           │   │   │   └── r-ox-eps-gaup-4.0_run_optics_chi_tddft
-    │           │   │   ├── oy-eps-gaup-4.0_out
-    │           │   │   │   ├── o-oy-eps-gaup-4.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-oy-eps-gaup-4.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── oy-eps-gaup-4.0.in_oy-eps-gaup-4.0_run
-    │           │   │   │   └── r-oy-eps-gaup-4.0_run_optics_chi_tddft
-    │           │   │   └── r_setup
-    │           │   ├── eps-gaup-5.0
-    │           │   │   ├── ox-eps-gaup-5.0_out
-    │           │   │   │   ├── o-ox-eps-gaup-5.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-ox-eps-gaup-5.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── ox-eps-gaup-5.0.in_ox-eps-gaup-5.0_run
-    │           │   │   │   └── r-ox-eps-gaup-5.0_run_optics_chi_tddft
-    │           │   │   ├── oy-eps-gaup-5.0_out
-    │           │   │   │   ├── o-oy-eps-gaup-5.0_run.eel_q1_inv_LRC_dyson
-    │           │   │   │   ├── o-oy-eps-gaup-5.0_run.eps_q1_inv_LRC_dyson
-    │           │   │   │   ├── oy-eps-gaup-5.0.in_oy-eps-gaup-5.0_run
-    │           │   │   │   └── r-oy-eps-gaup-5.0_run_optics_chi_tddft
-    │           │   │   └── r_setup
-    │           │   └── tddft-gaup-c4.sh
-    │           └── data-to-plot
-    │               ├── o-ox-eps-gaup-0.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-ox-eps-gaup-1.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-ox-eps-gaup-2.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-ox-eps-gaup-3.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-ox-eps-gaup-4.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-ox-eps-gaup-5.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-oy-eps-gaup-0.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-oy-eps-gaup-1.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-oy-eps-gaup-2.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-oy-eps-gaup-3.0_run.eps_q1_inv_LRC_dyson
-    │               ├── o-oy-eps-gaup-4.0_run.eps_q1_inv_LRC_dyson
-    │               └── o-oy-eps-gaup-5.0_run.eps_q1_inv_LRC_dyson
-    └── README.md
+[4.0K]  .
+├── [4.0K]  figure-workflow
+│   ├── [4.0K]  fig-1
+│   │   ├── [4.0K]  bands
+│   │   │   ├── [578K]  plot_gga_wou_soc.pdf
+│   │   │   └── [518K]  plot_gga_w_soc.pdf
+│   │   ├── [4.0K]  build-oscar
+│   │   │   ├── [782K]  fig_center.pdf
+│   │   │   └── [5.4M]  Sb2Te3-sc.pdf
+│   │   ├── [2.1K]  fig-1.tex
+│   │   ├── [3.1K]  fig_center.tex
+│   │   ├── [4.0K]  renders
+│   │   │   ├── [ 10K]  render-uatsx.ipynb
+│   │   │   ├── [404K]  Sb2Te3-uatsx-sc-0.png
+│   │   │   ├── [248K]  Sb2Te3-uatsx-uc-0.png
+│   │   │   ├── [223K]  Sb2Te3-uatsx-uc-10.png
+│   │   │   ├── [219K]  Sb2Te3-uatsx-uc-11.png
+│   │   │   ├── [220K]  Sb2Te3-uatsx-uc-12.png
+│   │   │   ├── [219K]  Sb2Te3-uatsx-uc-13.png
+│   │   │   ├── [218K]  Sb2Te3-uatsx-uc-14.png
+│   │   │   ├── [213K]  Sb2Te3-uatsx-uc-15.png
+│   │   │   ├── [209K]  Sb2Te3-uatsx-uc-16.png
+│   │   │   ├── [202K]  Sb2Te3-uatsx-uc-17.png
+│   │   │   ├── [199K]  Sb2Te3-uatsx-uc-18.png
+│   │   │   ├── [200K]  Sb2Te3-uatsx-uc-19.png
+│   │   │   ├── [248K]  Sb2Te3-uatsx-uc-1.png
+│   │   │   ├── [203K]  Sb2Te3-uatsx-uc-20.png
+│   │   │   ├── [206K]  Sb2Te3-uatsx-uc-21.png
+│   │   │   ├── [206K]  Sb2Te3-uatsx-uc-22.png
+│   │   │   ├── [205K]  Sb2Te3-uatsx-uc-23.png
+│   │   │   ├── [201K]  Sb2Te3-uatsx-uc-24.png
+│   │   │   ├── [200K]  Sb2Te3-uatsx-uc-25.png
+│   │   │   ├── [198K]  Sb2Te3-uatsx-uc-26.png
+│   │   │   ├── [199K]  Sb2Te3-uatsx-uc-27.png
+│   │   │   ├── [196K]  Sb2Te3-uatsx-uc-28.png
+│   │   │   ├── [196K]  Sb2Te3-uatsx-uc-29.png
+│   │   │   ├── [245K]  Sb2Te3-uatsx-uc-2.png
+│   │   │   ├── [238K]  Sb2Te3-uatsx-uc-3.png
+│   │   │   ├── [239K]  Sb2Te3-uatsx-uc-4.png
+│   │   │   ├── [238K]  Sb2Te3-uatsx-uc-5.png
+│   │   │   ├── [233K]  Sb2Te3-uatsx-uc-6.png
+│   │   │   ├── [231K]  Sb2Te3-uatsx-uc-7.png
+│   │   │   ├── [230K]  Sb2Te3-uatsx-uc-8.png
+│   │   │   ├── [225K]  Sb2Te3-uatsx-uc-9.png
+│   │   │   └── [ 11M]  Sb2Te3-ucx.pdf
+│   │   └── [1.7K]  Sb2Te3-sc.tex
+│   ├── [204K]  gif.ipynb
+│   ├── [2.3K]  README.md
+│   └── [4.8M]  Sb2Te3-sc.gif
+├── [   0]  folder_structure.txt
+├── [4.0K]  QE
+│   ├── [4.0K]  bands-pbe
+│   │   ├── [4.0K]  nosoc
+│   │   │   ├── [ 16K]  bands
+│   │   │   │   ├── [196K]  Sb2Te3-uatsx-c1-0.0.bands
+│   │   │   │   ├── [ 123]  Sb2Te3-uatsx-c1-0.0.bands.bands.in
+│   │   │   │   ├── [1.3M]  Sb2Te3-uatsx-c1-0.0.bands.bands.out
+│   │   │   │   ├── [433K]  Sb2Te3-uatsx-c1-0.0.bands.gnu
+│   │   │   │   ├── [176K]  Sb2Te3-uatsx-c1-0.0.bands.rap
+│   │   │   │   ├── [196K]  Sb2Te3-uatsx-c1-1.0.bands
+│   │   │   │   ├── [ 123]  Sb2Te3-uatsx-c1-1.0.bands.bands.in
+│   │   │   │   ├── [1.3M]  Sb2Te3-uatsx-c1-1.0.bands.bands.out
+│   │   │   │   ├── [433K]  Sb2Te3-uatsx-c1-1.0.bands.gnu
+│   │   │   │   ├── [176K]  Sb2Te3-uatsx-c1-1.0.bands.rap
+│   │   │   │   ├── [196K]  Sb2Te3-uatsx-c1-2.0.bands
+│   │   │   │   ├── [ 123]  Sb2Te3-uatsx-c1-2.0.bands.bands.in
+│   │   │   │   ├── [1.3M]  Sb2Te3-uatsx-c1-2.0.bands.bands.out
+│   │   │   │   ├── [433K]  Sb2Te3-uatsx-c1-2.0.bands.gnu
+│   │   │   │   ├── [176K]  Sb2Te3-uatsx-c1-2.0.bands.rap
+│   │   │   │   ├── [196K]  Sb2Te3-uatsx-c1-3.0.bands
+│   │   │   │   ├── [ 123]  Sb2Te3-uatsx-c1-3.0.bands.bands.in
+│   │   │   │   ├── [1.3M]  Sb2Te3-uatsx-c1-3.0.bands.bands.out
+│   │   │   │   ├── [433K]  Sb2Te3-uatsx-c1-3.0.bands.gnu
+│   │   │   │   ├── [176K]  Sb2Te3-uatsx-c1-3.0.bands.rap
+│   │   │   │   ├── [196K]  Sb2Te3-uatsx-c1-4.0.bands
+│   │   │   │   ├── [ 123]  Sb2Te3-uatsx-c1-4.0.bands.bands.in
+│   │   │   │   ├── [1.3M]  Sb2Te3-uatsx-c1-4.0.bands.bands.out
+│   │   │   │   ├── [433K]  Sb2Te3-uatsx-c1-4.0.bands.gnu
+│   │   │   │   ├── [176K]  Sb2Te3-uatsx-c1-4.0.bands.rap
+│   │   │   │   ├── [196K]  Sb2Te3-uatsx-c1-5.0.bands
+│   │   │   │   ├── [ 123]  Sb2Te3-uatsx-c1-5.0.bands.bands.in
+│   │   │   │   ├── [1.3M]  Sb2Te3-uatsx-c1-5.0.bands.bands.out
+│   │   │   │   ├── [433K]  Sb2Te3-uatsx-c1-5.0.bands.gnu
+│   │   │   │   └── [176K]  Sb2Te3-uatsx-c1-5.0.bands.rap
+│   │   │   ├── [4.0K]  bands-json
+│   │   │   │   ├── [236K]  Sb2Te3-uatsx-c1-0.0.json
+│   │   │   │   ├── [265K]  Sb2Te3-uatsx-c1-1.0.json
+│   │   │   │   ├── [266K]  Sb2Te3-uatsx-c1-2.0.json
+│   │   │   │   ├── [259K]  Sb2Te3-uatsx-c1-3.0.json
+│   │   │   │   ├── [277K]  Sb2Te3-uatsx-c1-4.0.json
+│   │   │   │   └── [253K]  Sb2Te3-uatsx-c1-5.0.json
+│   │   │   ├── [4.0K]  nscf
+│   │   │   │   ├── [1.1K]  Sb2Te3-uatsx-c1-0.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c1-0.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-1.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c1-1.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-2.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c1-2.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-3.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c1-3.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-4.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c1-4.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-5.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c1-5.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.1K]  Sb2Te3-uatsx-c3-0.0.nscf.bands.pw.in
+│   │   │   │   ├── [268K]  Sb2Te3-uatsx-c3-0.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-1.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c3-1.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-2.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c3-2.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-3.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c3-3.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-4.0.nscf.bands.pw.in
+│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c3-4.0.nscf.bands.pw.out
+│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-5.0.nscf.bands.pw.in
+│   │   │   │   └── [267K]  Sb2Te3-uatsx-c3-5.0.nscf.bands.pw.out
+│   │   │   ├── [4.0K]  scf
+│   │   │   │   ├── [ 896]  Sb2Te3-uatsx-c1-0.0.scf.pw.in
+│   │   │   │   ├── [229K]  Sb2Te3-uatsx-c1-0.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c1-1.0.scf.pw.in
+│   │   │   │   ├── [230K]  Sb2Te3-uatsx-c1-1.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c1-2.0.scf.pw.in
+│   │   │   │   ├── [230K]  Sb2Te3-uatsx-c1-2.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c1-3.0.scf.pw.in
+│   │   │   │   ├── [229K]  Sb2Te3-uatsx-c1-3.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c1-4.0.scf.pw.in
+│   │   │   │   ├── [229K]  Sb2Te3-uatsx-c1-4.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c1-5.0.scf.pw.in
+│   │   │   │   ├── [229K]  Sb2Te3-uatsx-c1-5.0.scf.pw.out
+│   │   │   │   ├── [ 923]  Sb2Te3-uatsx-c3-0.0.scf.pw.in
+│   │   │   │   ├── [229K]  Sb2Te3-uatsx-c3-0.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-1.0.scf.pw.in
+│   │   │   │   ├── [230K]  Sb2Te3-uatsx-c3-1.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-2.0.scf.pw.in
+│   │   │   │   ├── [230K]  Sb2Te3-uatsx-c3-2.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-3.0.scf.pw.in
+│   │   │   │   ├── [230K]  Sb2Te3-uatsx-c3-3.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-4.0.scf.pw.in
+│   │   │   │   ├── [229K]  Sb2Te3-uatsx-c3-4.0.scf.pw.out
+│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-5.0.scf.pw.in
+│   │   │   │   └── [229K]  Sb2Te3-uatsx-c3-5.0.scf.pw.out
+│   │   │   └── [ 22K]  uatsx-c1.sh
+│   │   └── [4.0K]  soc
+│   │       ├── [ 12K]  bands
+│   │       │   ├── [196K]  Sb2Te3-uatsx-c2-soc-0.0.bands
+│   │       │   ├── [ 131]  Sb2Te3-uatsx-c2-soc-0.0.bands.bands.in
+│   │       │   ├── [1.1M]  Sb2Te3-uatsx-c2-soc-0.0.bands.bands.out
+│   │       │   ├── [433K]  Sb2Te3-uatsx-c2-soc-0.0.bands.gnu
+│   │       │   ├── [176K]  Sb2Te3-uatsx-c2-soc-0.0.bands.rap
+│   │       │   ├── [196K]  Sb2Te3-uatsx-c2-soc-1.0.bands
+│   │       │   ├── [ 131]  Sb2Te3-uatsx-c2-soc-1.0.bands.bands.in
+│   │       │   ├── [1.0M]  Sb2Te3-uatsx-c2-soc-1.0.bands.bands.out
+│   │       │   ├── [433K]  Sb2Te3-uatsx-c2-soc-1.0.bands.gnu
+│   │       │   ├── [176K]  Sb2Te3-uatsx-c2-soc-1.0.bands.rap
+│   │       │   ├── [196K]  Sb2Te3-uatsx-c2-soc-2.0.bands
+│   │       │   ├── [ 131]  Sb2Te3-uatsx-c2-soc-2.0.bands.bands.in
+│   │       │   ├── [1.0M]  Sb2Te3-uatsx-c2-soc-2.0.bands.bands.out
+│   │       │   ├── [433K]  Sb2Te3-uatsx-c2-soc-2.0.bands.gnu
+│   │       │   ├── [176K]  Sb2Te3-uatsx-c2-soc-2.0.bands.rap
+│   │       │   ├── [196K]  Sb2Te3-uatsx-c2-soc-3.0.bands
+│   │       │   ├── [ 131]  Sb2Te3-uatsx-c2-soc-3.0.bands.bands.in
+│   │       │   ├── [1.0M]  Sb2Te3-uatsx-c2-soc-3.0.bands.bands.out
+│   │       │   ├── [433K]  Sb2Te3-uatsx-c2-soc-3.0.bands.gnu
+│   │       │   ├── [176K]  Sb2Te3-uatsx-c2-soc-3.0.bands.rap
+│   │       │   ├── [196K]  Sb2Te3-uatsx-c2-soc-4.0.bands
+│   │       │   ├── [ 131]  Sb2Te3-uatsx-c2-soc-4.0.bands.bands.in
+│   │       │   ├── [1.0M]  Sb2Te3-uatsx-c2-soc-4.0.bands.bands.out
+│   │       │   ├── [433K]  Sb2Te3-uatsx-c2-soc-4.0.bands.gnu
+│   │       │   ├── [176K]  Sb2Te3-uatsx-c2-soc-4.0.bands.rap
+│   │       │   ├── [196K]  Sb2Te3-uatsx-c2-soc-5.0.bands
+│   │       │   ├── [ 131]  Sb2Te3-uatsx-c2-soc-5.0.bands.bands.in
+│   │       │   ├── [986K]  Sb2Te3-uatsx-c2-soc-5.0.bands.bands.out
+│   │       │   ├── [433K]  Sb2Te3-uatsx-c2-soc-5.0.bands.gnu
+│   │       │   └── [176K]  Sb2Te3-uatsx-c2-soc-5.0.bands.rap
+│   │       ├── [4.0K]  bands-json
+│   │       │   ├── [272K]  Sb2Te3-uatsx-c2-soc-0.0.json
+│   │       │   ├── [276K]  Sb2Te3-uatsx-c2-soc-1.0.json
+│   │       │   ├── [275K]  Sb2Te3-uatsx-c2-soc-2.0.json
+│   │       │   ├── [266K]  Sb2Te3-uatsx-c2-soc-3.0.json
+│   │       │   ├── [239K]  Sb2Te3-uatsx-c2-soc-4.0.json
+│   │       │   └── [268K]  Sb2Te3-uatsx-c2-soc-5.0.json
+│   │       ├── [4.0K]  nscf
+│   │       │   ├── [1.1K]  Sb2Te3-uatsx-c2-soc-0.0.nscf.bands.pw.in
+│   │       │   ├── [267K]  Sb2Te3-uatsx-c2-soc-0.0.nscf.bands.pw.out
+│   │       │   ├── [1.2K]  Sb2Te3-uatsx-c2-soc-1.0.nscf.bands.pw.in
+│   │       │   ├── [267K]  Sb2Te3-uatsx-c2-soc-1.0.nscf.bands.pw.out
+│   │       │   ├── [1.3K]  Sb2Te3-uatsx-c2-soc-2.0.nscf.bands.pw.in
+│   │       │   ├── [267K]  Sb2Te3-uatsx-c2-soc-2.0.nscf.bands.pw.out
+│   │       │   ├── [1.3K]  Sb2Te3-uatsx-c2-soc-3.0.nscf.bands.pw.in
+│   │       │   ├── [267K]  Sb2Te3-uatsx-c2-soc-3.0.nscf.bands.pw.out
+│   │       │   ├── [1.3K]  Sb2Te3-uatsx-c2-soc-4.0.nscf.bands.pw.in
+│   │       │   ├── [267K]  Sb2Te3-uatsx-c2-soc-4.0.nscf.bands.pw.out
+│   │       │   ├── [1.3K]  Sb2Te3-uatsx-c2-soc-5.0.nscf.bands.pw.in
+│   │       │   └── [267K]  Sb2Te3-uatsx-c2-soc-5.0.nscf.bands.pw.out
+│   │       ├── [4.0K]  scf
+│   │       │   ├── [ 955]  Sb2Te3-uatsx-c2-soc-0.0.scf.pw.in
+│   │       │   ├── [388K]  Sb2Te3-uatsx-c2-soc-0.0.scf.pw.out
+│   │       │   ├── [1.1K]  Sb2Te3-uatsx-c2-soc-1.0.scf.pw.in
+│   │       │   ├── [388K]  Sb2Te3-uatsx-c2-soc-1.0.scf.pw.out
+│   │       │   ├── [1.1K]  Sb2Te3-uatsx-c2-soc-2.0.scf.pw.in
+│   │       │   ├── [387K]  Sb2Te3-uatsx-c2-soc-2.0.scf.pw.out
+│   │       │   ├── [1.1K]  Sb2Te3-uatsx-c2-soc-3.0.scf.pw.in
+│   │       │   ├── [388K]  Sb2Te3-uatsx-c2-soc-3.0.scf.pw.out
+│   │       │   ├── [1.1K]  Sb2Te3-uatsx-c2-soc-4.0.scf.pw.in
+│   │       │   ├── [388K]  Sb2Te3-uatsx-c2-soc-4.0.scf.pw.out
+│   │       │   ├── [1.1K]  Sb2Te3-uatsx-c2-soc-5.0.scf.pw.in
+│   │       │   └── [389K]  Sb2Te3-uatsx-c2-soc-5.0.scf.pw.out
+│   │       └── [ 23K]  uatsx-c2-soc.sh
+│   ├── [ 71K]  bands-processing.ipynb
+│   ├── [4.0K]  pbe-yambo-inputs
+│   │   ├── [4.0K]  G0W0-BSE
+│   │   │   └── [ 18K]  uatsx-c13-yambo.sh
+│   │   └── [4.0K]  TDDFT-LRC
+│   │       ├── [4.0K]  B3LYP
+│   │       │   ├── [ 20K]  b3lyp-c1.sh
+│   │       │   ├── [4.0K]  nscf
+│   │       │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-0.0.nscf.pw.in
+│   │       │   │   ├── [250K]  Sb2Te3-uatsx-c1-0.0.nscf.pw.out
+│   │       │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-1.0.nscf.pw.in
+│   │       │   │   ├── [250K]  Sb2Te3-uatsx-c1-1.0.nscf.pw.out
+│   │       │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-2.0.nscf.pw.in
+│   │       │   │   ├── [250K]  Sb2Te3-uatsx-c1-2.0.nscf.pw.out
+│   │       │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-3.0.nscf.pw.in
+│   │       │   │   ├── [250K]  Sb2Te3-uatsx-c1-3.0.nscf.pw.out
+│   │       │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-4.0.nscf.pw.in
+│   │       │   │   ├── [250K]  Sb2Te3-uatsx-c1-4.0.nscf.pw.out
+│   │       │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-5.0.nscf.pw.in
+│   │       │   │   └── [250K]  Sb2Te3-uatsx-c1-5.0.nscf.pw.out
+│   │       │   └── [4.0K]  scf
+│   │       │       ├── [1.2K]  Sb2Te3-uatsx-c1-0.0.scf.pw.in
+│   │       │       ├── [664K]  Sb2Te3-uatsx-c1-0.0.scf.pw.out
+│   │       │       ├── [1.2K]  Sb2Te3-uatsx-c1-1.0.scf.pw.in
+│   │       │       ├── [663K]  Sb2Te3-uatsx-c1-1.0.scf.pw.out
+│   │       │       ├── [1.2K]  Sb2Te3-uatsx-c1-2.0.scf.pw.in
+│   │       │       ├── [561K]  Sb2Te3-uatsx-c1-2.0.scf.pw.out
+│   │       │       ├── [1.2K]  Sb2Te3-uatsx-c1-3.0.scf.pw.in
+│   │       │       ├── [562K]  Sb2Te3-uatsx-c1-3.0.scf.pw.out
+│   │       │       ├── [1.2K]  Sb2Te3-uatsx-c1-4.0.scf.pw.in
+│   │       │       ├── [560K]  Sb2Te3-uatsx-c1-4.0.scf.pw.out
+│   │       │       ├── [1.2K]  Sb2Te3-uatsx-c1-5.0.scf.pw.in
+│   │       │       └── [561K]  Sb2Te3-uatsx-c1-5.0.scf.pw.out
+│   │       └── [4.0K]  Gau-PBE
+│   │           ├── [ 21K]  gaup-c4.sh
+│   │           ├── [4.0K]  nscf
+│   │           │   ├── [1.2K]  Sb2Te3-uatsx-c4-0.0.nscf.pw.in
+│   │           │   ├── [366K]  Sb2Te3-uatsx-c4-0.0.nscf.pw.out
+│   │           │   ├── [1.2K]  Sb2Te3-uatsx-c4-1.0.nscf.pw.in
+│   │           │   ├── [366K]  Sb2Te3-uatsx-c4-1.0.nscf.pw.out
+│   │           │   ├── [1.2K]  Sb2Te3-uatsx-c4-2.0.nscf.pw.in
+│   │           │   ├── [366K]  Sb2Te3-uatsx-c4-2.0.nscf.pw.out
+│   │           │   ├── [1.2K]  Sb2Te3-uatsx-c4-3.0.nscf.pw.in
+│   │           │   ├── [366K]  Sb2Te3-uatsx-c4-3.0.nscf.pw.out
+│   │           │   ├── [1.2K]  Sb2Te3-uatsx-c4-4.0.nscf.pw.in
+│   │           │   ├── [366K]  Sb2Te3-uatsx-c4-4.0.nscf.pw.out
+│   │           │   ├── [1.2K]  Sb2Te3-uatsx-c4-5.0.nscf.pw.in
+│   │           │   └── [366K]  Sb2Te3-uatsx-c4-5.0.nscf.pw.out
+│   │           └── [4.0K]  scf
+│   │               ├── [1.2K]  Sb2Te3-uatsx-c4-0.0.scf.pw.in
+│   │               ├── [1.0M]  Sb2Te3-uatsx-c4-0.0.scf.pw.out
+│   │               ├── [1.2K]  Sb2Te3-uatsx-c4-1.0.scf.pw.in
+│   │               ├── [1.0M]  Sb2Te3-uatsx-c4-1.0.scf.pw.out
+│   │               ├── [1.2K]  Sb2Te3-uatsx-c4-2.0.scf.pw.in
+│   │               ├── [1.0M]  Sb2Te3-uatsx-c4-2.0.scf.pw.out
+│   │               ├── [1.2K]  Sb2Te3-uatsx-c4-3.0.scf.pw.in
+│   │               ├── [1.0M]  Sb2Te3-uatsx-c4-3.0.scf.pw.out
+│   │               ├── [1.2K]  Sb2Te3-uatsx-c4-4.0.scf.pw.in
+│   │               ├── [1.0M]  Sb2Te3-uatsx-c4-4.0.scf.pw.out
+│   │               ├── [1.2K]  Sb2Te3-uatsx-c4-5.0.scf.pw.in
+│   │               └── [1.0M]  Sb2Te3-uatsx-c4-5.0.scf.pw.out
+│   └── [1.6K]  README.md
+├── [3.9K]  README.md
+├── [4.0K]  scripts-plots
+│   ├── [117K]  bands_plots_g0w0.ipynb
+│   ├── [744K]  bands_plots_pbe.ipynb
+│   ├── [ 47K]  hybrid_gaps.ipynb
+│   └── [1.6M]  optical_plots.ipynb
+└── [4.0K]  YAMBO
+    ├── [4.0K]  acct-1
+    │   ├── [4.0K]  BSE
+    │   │   ├── [4.0K]  bse-eps-outputs
+    │   │   │   ├── [200K]  o-bse_6_run.eel_q1_haydock_bse
+    │   │   │   ├── [200K]  o-bse_6_run.eps_q1_haydock_bse
+    │   │   │   ├── [200K]  o-bse_7_run.eel_q1_haydock_bse
+    │   │   │   └── [200K]  o-bse_7_run.eps_q1_haydock_bse
+    │   │   └── [4.0K]  bse-inptus
+    │   │       ├── [3.0K]  bse_6.in
+    │   │       └── [3.0K]  bse_7.in
+    │   ├── [4.0K]  G0W0
+    │   │   ├── [4.0K]  g0w0-bands-out
+    │   │   │   ├── [ 73K]  o-g0w0_bands_3_run.bands_interpolated_01
+    │   │   │   ├── [ 73K]  o-g0w0_bands_4_run.bands_interpolated
+    │   │   │   ├── [ 73K]  o-g0w0_bands_5_run.bands_interpolated
+    │   │   │   ├── [ 73K]  o-g0w0_bands_6_run.bands_interpolated
+    │   │   │   ├── [ 73K]  o-g0w0_bands_7_run.bands_interpolated
+    │   │   │   ├── [ 92K]  o-g0w0_bands_7_run.bands_interpolated_01
+    │   │   │   └── [ 92K]  o-g0w0_bands_7_run.bands_interpolated_02
+    │   │   └── [4.0K]  g0w0-inputs
+    │   │       ├── [2.9K]  g0w0_4.in
+    │   │       ├── [3.1K]  g0w0_5.in
+    │   │       ├── [3.0K]  g0w0_6.in
+    │   │       └── [3.1K]  g0w0_7.in
+    │   ├── [163K]  Sb2Te3_eps.ipynb
+    │   ├── [273K]  Sb2Te3_QP.ipynb
+    │   └── [4.0K]  TDDFT-LRC
+    │       ├── [4.0K]  B3LYP
+    │       │   ├── [4.0K]  calc-1
+    │       │   │   ├── [4.0K]  ox_-0.1_out
+    │       │   │   │   ├── [140K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.1.in_ox_-0.1_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.1_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.2_out
+    │       │   │   │   ├── [140K]  o-ox_-0.2_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.2_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.2.in_ox_-0.2_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.2_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.3_out
+    │       │   │   │   ├── [140K]  o-ox_-0.3_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.3_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.3.in_ox_-0.3_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.3_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.4_out
+    │       │   │   │   ├── [140K]  o-ox_-0.4_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.4_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.4.in_ox_-0.4_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.4_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.5_out
+    │       │   │   │   ├── [140K]  o-ox_-0.5_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.5_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.5.in_ox_-0.5_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.5_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.6_out
+    │       │   │   │   ├── [140K]  o-ox_-0.6_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.6_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.6.in_ox_-0.6_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.6_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.7_out
+    │       │   │   │   ├── [140K]  o-ox_-0.7_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.7_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.7.in_ox_-0.7_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.7_run_optics_chi_tddft
+    │       │   │   └── [2.3K]  run_c1.sh
+    │       │   ├── [4.0K]  calc-2
+    │       │   │   ├── [4.0K]  ox_-0.1_out
+    │       │   │   │   ├── [139K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.1.in_ox_-0.1_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.1_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.2_out
+    │       │   │   │   ├── [139K]  o-ox_-0.2_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.2_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.2.in_ox_-0.2_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.2_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.3_out
+    │       │   │   │   ├── [139K]  o-ox_-0.3_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.3_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.3.in_ox_-0.3_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.3_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.4_out
+    │       │   │   │   ├── [139K]  o-ox_-0.4_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.4_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.4.in_ox_-0.4_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.4_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.5_out
+    │       │   │   │   ├── [139K]  o-ox_-0.5_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.5_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.5.in_ox_-0.5_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.5_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.6_out
+    │       │   │   │   ├── [139K]  o-ox_-0.6_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.6_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.6.in_ox_-0.6_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.6_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.7_out
+    │       │   │   │   ├── [139K]  o-ox_-0.7_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.7_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.7.in_ox_-0.7_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.7_run_optics_chi_tddft
+    │       │   │   └── [2.3K]  run_c2.sh
+    │       │   ├── [4.0K]  calc-3
+    │       │   │   ├── [4.0K]  ox_-0.1_out
+    │       │   │   │   ├── [140K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.1.in_ox_-0.1_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.1_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.2_out
+    │       │   │   │   ├── [140K]  o-ox_-0.2_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.2_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.2.in_ox_-0.2_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.2_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.3_out
+    │       │   │   │   ├── [140K]  o-ox_-0.3_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.3_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.3.in_ox_-0.3_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.3_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.4_out
+    │       │   │   │   ├── [140K]  o-ox_-0.4_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.4_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.4.in_ox_-0.4_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.4_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.5_out
+    │       │   │   │   ├── [140K]  o-ox_-0.5_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.5_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.5.in_ox_-0.5_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.5_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.6_out
+    │       │   │   │   ├── [140K]  o-ox_-0.6_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.6_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.6.in_ox_-0.6_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.6_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.7_out
+    │       │   │   │   ├── [140K]  o-ox_-0.7_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox_-0.7_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 875]  ox_-0.7.in_ox_-0.7_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.7_run_optics_chi_tddft
+    │       │   │   └── [2.3K]  run_c3.sh
+    │       │   ├── [4.0K]  calc-4
+    │       │   │   ├── [4.0K]  o1-0.0
+    │       │   │   │   ├── [4.0K]  ox-o1-0.0-out
+    │       │   │   │   │   ├── [140K]  o-ox-o1-0.0-run.eel_q1_inv_LRC_dyson
+    │       │   │   │   │   ├── [139K]  o-ox-o1-0.0-run.eps_q1_inv_LRC_dyson
+    │       │   │   │   │   ├── [ 965]  ox-o1-0.0.in_ox-o1-0.0-run
+    │       │   │   │   │   └── [ 21K]  r-ox-o1-0.0-run_optics_chi_tddft
+    │       │   │   │   └── [4.0K]  oy-o1-0.0-out
+    │       │   │   │       ├── [140K]  o-oy-o1-0.0-run.eel_q1_inv_LRC_dyson
+    │       │   │   │       ├── [139K]  o-oy-o1-0.0-run.eps_q1_inv_LRC_dyson
+    │       │   │   │       ├── [ 960]  oy-o1-0.0.in_oy-o1-0.0-run
+    │       │   │   │       └── [ 21K]  r-oy-o1-0.0-run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  o1-1.0
+    │       │   │   │   ├── [4.0K]  ox-o1-1.0-out
+    │       │   │   │   │   ├── [140K]  o-ox-o1-1.0-run.eel_q1_inv_LRC_dyson
+    │       │   │   │   │   ├── [139K]  o-ox-o1-1.0-run.eps_q1_inv_LRC_dyson
+    │       │   │   │   │   ├── [ 960]  ox-o1-1.0.in_ox-o1-1.0-run
+    │       │   │   │   │   └── [ 21K]  r-ox-o1-1.0-run_optics_chi_tddft
+    │       │   │   │   └── [4.0K]  oy-o1-1.0-out
+    │       │   │   │       ├── [140K]  o-oy-o1-1.0-run.eel_q1_inv_LRC_dyson
+    │       │   │   │       ├── [139K]  o-oy-o1-1.0-run.eps_q1_inv_LRC_dyson
+    │       │   │   │       ├── [ 960]  oy-o1-1.0.in_oy-o1-1.0-run
+    │       │   │   │       └── [ 21K]  r-oy-o1-1.0-run_optics_chi_tddft
+    │       │   │   └── [ 17K]  optics-1.sh
+    │       │   ├── [4.0K]  calc-5
+    │       │   │   ├── [4.0K]  ox_-0.1_out
+    │       │   │   │   ├── [140K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 876]  ox_-0.1.in_ox_-0.1_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.1_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.2_out
+    │       │   │   │   ├── [140K]  o-ox_-0.2_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.2_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 876]  ox_-0.2.in_ox_-0.2_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.2_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.3_out
+    │       │   │   │   ├── [140K]  o-ox_-0.3_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.3_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 876]  ox_-0.3.in_ox_-0.3_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.3_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  ox_-0.4_out
+    │       │   │   │   ├── [140K]  o-ox_-0.4_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox_-0.4_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 876]  ox_-0.4.in_ox_-0.4_run
+    │       │   │   │   └── [ 21K]  r-ox_-0.4_run_optics_chi_tddft
+    │       │   │   └── [2.3K]  run_c5.sh
+    │       │   └── [4.0K]  calc-6
+    │       │       ├── [4.0K]  ox_-0.1_out
+    │       │       │   ├── [139K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │       │       │   ├── [139K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │       │       │   ├── [ 875]  ox_-0.1.in_ox_-0.1_run
+    │       │       │   └── [ 21K]  r-ox_-0.1_run_optics_chi_tddft
+    │       │       ├── [4.0K]  ox_-0.2_out
+    │       │       │   ├── [139K]  o-ox_-0.2_run.eel_q1_inv_LRC_dyson
+    │       │       │   ├── [139K]  o-ox_-0.2_run.eps_q1_inv_LRC_dyson
+    │       │       │   ├── [ 875]  ox_-0.2.in_ox_-0.2_run
+    │       │       │   └── [ 21K]  r-ox_-0.2_run_optics_chi_tddft
+    │       │       ├── [4.0K]  ox_-0.3_out
+    │       │       │   ├── [139K]  o-ox_-0.3_run.eel_q1_inv_LRC_dyson
+    │       │       │   ├── [139K]  o-ox_-0.3_run.eps_q1_inv_LRC_dyson
+    │       │       │   ├── [ 875]  ox_-0.3.in_ox_-0.3_run
+    │       │       │   └── [ 21K]  r-ox_-0.3_run_optics_chi_tddft
+    │       │       ├── [4.0K]  ox_-0.4_out
+    │       │       │   ├── [139K]  o-ox_-0.4_run.eel_q1_inv_LRC_dyson
+    │       │       │   ├── [139K]  o-ox_-0.4_run.eps_q1_inv_LRC_dyson
+    │       │       │   ├── [ 875]  ox_-0.4.in_ox_-0.4_run
+    │       │       │   └── [ 21K]  r-ox_-0.4_run_optics_chi_tddft
+    │       │       └── [2.3K]  run_c6.sh
+    │       └── [4.0K]  Gau-PBE
+    │           ├── [4.0K]  calc-1
+    │           │   ├── [4.0K]  ox_-0.1_out
+    │           │   │   ├── [139K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 875]  ox_-0.1.in_ox_-0.1_run
+    │           │   │   └── [ 21K]  r-ox_-0.1_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.2_out
+    │           │   │   ├── [139K]  o-ox_-0.2_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.2_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 875]  ox_-0.2.in_ox_-0.2_run
+    │           │   │   └── [ 21K]  r-ox_-0.2_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.3_out
+    │           │   │   ├── [139K]  o-ox_-0.3_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.3_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 875]  ox_-0.3.in_ox_-0.3_run
+    │           │   │   └── [ 21K]  r-ox_-0.3_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.4_out
+    │           │   │   ├── [139K]  o-ox_-0.4_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.4_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 875]  ox_-0.4.in_ox_-0.4_run
+    │           │   │   └── [ 21K]  r-ox_-0.4_run_optics_chi_tddft
+    │           │   └── [2.3K]  run_c1.sh
+    │           ├── [4.0K]  calc-2
+    │           │   ├── [4.0K]  ox_-0.1_out
+    │           │   │   ├── [139K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 875]  ox_-0.1.in_ox_-0.1_run
+    │           │   │   └── [ 21K]  r-ox_-0.1_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.2_out
+    │           │   │   ├── [139K]  o-ox_-0.2_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.2_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 875]  ox_-0.2.in_ox_-0.2_run
+    │           │   │   └── [ 21K]  r-ox_-0.2_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.3_out
+    │           │   │   ├── [139K]  o-ox_-0.3_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.3_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 875]  ox_-0.3.in_ox_-0.3_run
+    │           │   │   └── [ 21K]  r-ox_-0.3_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.4_out
+    │           │   │   ├── [139K]  o-ox_-0.4_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.4_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 875]  ox_-0.4.in_ox_-0.4_run
+    │           │   │   └── [ 21K]  r-ox_-0.4_run_optics_chi_tddft
+    │           │   └── [2.3K]  run_c2.sh
+    │           ├── [4.0K]  calc-3
+    │           │   ├── [4.0K]  ox_-0.1_out
+    │           │   │   ├── [140K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 876]  ox_-0.1.in_ox_-0.1_run
+    │           │   │   └── [ 21K]  r-ox_-0.1_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.2_out
+    │           │   │   ├── [ 876]  ox_-0.2.in_ox_-0.2_run
+    │           │   │   └── [ 12K]  r-ox_-0.2_run_optics_chi_tddft
+    │           │   └── [2.3K]  run_c3.sh
+    │           ├── [4.0K]  calc-4
+    │           │   └── [ 17K]  optics-4.sh
+    │           ├── [4.0K]  calc-5
+    │           │   ├── [4.0K]  ox_-0.1_out
+    │           │   │   ├── [140K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 876]  ox_-0.1.in_ox_-0.1_run
+    │           │   │   └── [ 21K]  r-ox_-0.1_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.2_out
+    │           │   │   ├── [140K]  o-ox_-0.2_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.2_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 876]  ox_-0.2.in_ox_-0.2_run
+    │           │   │   └── [ 21K]  r-ox_-0.2_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.3_out
+    │           │   │   ├── [140K]  o-ox_-0.3_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.3_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 876]  ox_-0.3.in_ox_-0.3_run
+    │           │   │   └── [ 21K]  r-ox_-0.3_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.4_out
+    │           │   │   ├── [140K]  o-ox_-0.4_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.4_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 876]  ox_-0.4.in_ox_-0.4_run
+    │           │   │   └── [ 21K]  r-ox_-0.4_run_optics_chi_tddft
+    │           │   └── [2.3K]  run_c5.sh
+    │           └── [4.0K]  calc-6
+    │               └── [2.3K]  run_c6.sh
+    ├── [4.0K]  acct-2
+    │   ├── [4.0K]  hybrid-gaps-data
+    │   │   └── [ 750]  gaps_b3lyp_gaup_1.dat
+    │   ├── [4.0K]  RPA
+    │   │   ├── [2.0K]  rpa_qp_1.in
+    │   │   ├── [4.0K]  rpa_qp_1_out
+    │   │   │   ├── [140K]  o-rpa_qp_1_run.eel_q1_inv_rpa_dyson
+    │   │   │   ├── [140K]  o-rpa_qp_1_run.eps_q1_inv_rpa_dyson
+    │   │   │   ├── [ 56K]  o-rpa_qp_1_run.-g0w0_5_run.data
+    │   │   │   ├── [ 24K]  o-rpa_qp_1_run.-g0w0_5_run.fit
+    │   │   │   ├── [2.0K]  rpa_qp_1.in_rpa_qp_1_run
+    │   │   │   └── [ 69K]  r-rpa_qp_1_run_optics_dipoles_kernel_chi
+    │   │   ├── [2.0K]  rpa_qp_2.in
+    │   │   └── [4.0K]  rpa_qp_2_out
+    │   │       ├── [140K]  o-rpa_qp_2_run.eel_q1_inv_rpa_dyson
+    │   │       ├── [140K]  o-rpa_qp_2_run.eps_q1_inv_rpa_dyson
+    │   │       ├── [ 56K]  o-rpa_qp_2_run.-g0w0_5_run.data
+    │   │       ├── [ 24K]  o-rpa_qp_2_run.-g0w0_5_run.fit
+    │   │       ├── [2.0K]  rpa_qp_2.in_rpa_qp_2_run
+    │   │       └── [ 69K]  r-rpa_qp_2_run_optics_dipoles_kernel_chi
+    │   ├── [366K]  Sb2Te3_eps.ipynb
+    │   ├── [ 36K]  Sb2Te3_gaps.ipynb
+    │   └── [4.0K]  TDDFT-LRC
+    │       ├── [4.0K]  B3LYP
+    │       │   ├── [4.0K]  data-to-plot
+    │       │   │   ├── [139K]  o-ox-eps-b3lyp-0.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [140K]  o-ox-eps-b3lyp-1.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [140K]  o-ox-eps-b3lyp-2.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [140K]  o-ox-eps-b3lyp-3.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [140K]  o-ox-eps-b3lyp-4.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [140K]  o-ox-eps-b3lyp-5.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [139K]  o-oy-eps-b3lyp-0.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [140K]  o-oy-eps-b3lyp-1.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [140K]  o-oy-eps-b3lyp-2.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [140K]  o-oy-eps-b3lyp-3.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   ├── [140K]  o-oy-eps-b3lyp-4.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   └── [140K]  o-oy-eps-b3lyp-5.0_run.eps_q1_inv_LRC_dyson
+    │       │   ├── [4.0K]  eps-b3lyp-0.0
+    │       │   │   ├── [4.0K]  ox-eps-b3lyp-0.0_out
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-0.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-ox-eps-b3lyp-0.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 909]  ox-eps-b3lyp-0.0.in_ox-eps-b3lyp-0.0_run
+    │       │   │   │   └── [ 22K]  r-ox-eps-b3lyp-0.0_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  oy-eps-b3lyp-0.0_out
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-0.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [139K]  o-oy-eps-b3lyp-0.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  oy-eps-b3lyp-0.0.in_oy-eps-b3lyp-0.0_run
+    │       │   │   │   └── [ 22K]  r-oy-eps-b3lyp-0.0_run_optics_chi_tddft
+    │       │   │   └── [ 81K]  r_setup
+    │       │   ├── [4.0K]  eps-b3lyp-1.0
+    │       │   │   ├── [4.0K]  ox-eps-b3lyp-1.0_out
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-1.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-1.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  ox-eps-b3lyp-1.0.in_ox-eps-b3lyp-1.0_run
+    │       │   │   │   └── [ 22K]  r-ox-eps-b3lyp-1.0_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  oy-eps-b3lyp-1.0_out
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-1.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-1.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  oy-eps-b3lyp-1.0.in_oy-eps-b3lyp-1.0_run
+    │       │   │   │   └── [ 22K]  r-oy-eps-b3lyp-1.0_run_optics_chi_tddft
+    │       │   │   └── [ 80K]  r_setup
+    │       │   ├── [4.0K]  eps-b3lyp-2.0
+    │       │   │   ├── [4.0K]  ox-eps-b3lyp-2.0_out
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-2.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-2.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  ox-eps-b3lyp-2.0.in_ox-eps-b3lyp-2.0_run
+    │       │   │   │   └── [ 22K]  r-ox-eps-b3lyp-2.0_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  oy-eps-b3lyp-2.0_out
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-2.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-2.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  oy-eps-b3lyp-2.0.in_oy-eps-b3lyp-2.0_run
+    │       │   │   │   └── [ 22K]  r-oy-eps-b3lyp-2.0_run_optics_chi_tddft
+    │       │   │   └── [ 81K]  r_setup
+    │       │   ├── [4.0K]  eps-b3lyp-3.0
+    │       │   │   ├── [4.0K]  ox-eps-b3lyp-3.0_out
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-3.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-3.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  ox-eps-b3lyp-3.0.in_ox-eps-b3lyp-3.0_run
+    │       │   │   │   └── [ 22K]  r-ox-eps-b3lyp-3.0_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  oy-eps-b3lyp-3.0_out
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-3.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-3.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  oy-eps-b3lyp-3.0.in_oy-eps-b3lyp-3.0_run
+    │       │   │   │   └── [ 22K]  r-oy-eps-b3lyp-3.0_run_optics_chi_tddft
+    │       │   │   └── [ 81K]  r_setup
+    │       │   ├── [4.0K]  eps-b3lyp-4.0
+    │       │   │   ├── [4.0K]  ox-eps-b3lyp-4.0_out
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-4.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-4.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  ox-eps-b3lyp-4.0.in_ox-eps-b3lyp-4.0_run
+    │       │   │   │   └── [ 22K]  r-ox-eps-b3lyp-4.0_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  oy-eps-b3lyp-4.0_out
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-4.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-4.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 894]  oy-eps-b3lyp-4.0.in_oy-eps-b3lyp-4.0_run
+    │       │   │   │   └── [ 22K]  r-oy-eps-b3lyp-4.0_run_optics_chi_tddft
+    │       │   │   └── [ 80K]  r_setup
+    │       │   ├── [4.0K]  eps-b3lyp-5.0
+    │       │   │   ├── [4.0K]  ox-eps-b3lyp-5.0_out
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-5.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-ox-eps-b3lyp-5.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  ox-eps-b3lyp-5.0.in_ox-eps-b3lyp-5.0_run
+    │       │   │   │   └── [ 22K]  r-ox-eps-b3lyp-5.0_run_optics_chi_tddft
+    │       │   │   ├── [4.0K]  oy-eps-b3lyp-5.0_out
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-5.0_run.eel_q1_inv_LRC_dyson
+    │       │   │   │   ├── [140K]  o-oy-eps-b3lyp-5.0_run.eps_q1_inv_LRC_dyson
+    │       │   │   │   ├── [ 908]  oy-eps-b3lyp-5.0.in_oy-eps-b3lyp-5.0_run
+    │       │   │   │   └── [ 22K]  r-oy-eps-b3lyp-5.0_run_optics_chi_tddft
+    │       │   │   └── [ 80K]  r_setup
+    │       │   └── [ 18K]  tddft-b3lyp-c2.sh
+    │       └── [4.0K]  Gau-PBE
+    │           ├── [4.0K]  calc-1
+    │           │   ├── [4.0K]  ox_-0.1_out
+    │           │   │   ├── [139K]  o-ox_-0.1_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.1_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 825]  ox_-0.1.in_ox_-0.1_run
+    │           │   │   └── [ 22K]  r-ox_-0.1_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.2_out
+    │           │   │   ├── [139K]  o-ox_-0.2_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.2_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 825]  ox_-0.2.in_ox_-0.2_run
+    │           │   │   └── [ 22K]  r-ox_-0.2_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.3_out
+    │           │   │   ├── [139K]  o-ox_-0.3_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.3_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 825]  ox_-0.3.in_ox_-0.3_run
+    │           │   │   └── [ 22K]  r-ox_-0.3_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.4_out
+    │           │   │   ├── [139K]  o-ox_-0.4_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.4_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 825]  ox_-0.4.in_ox_-0.4_run
+    │           │   │   └── [ 22K]  r-ox_-0.4_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.5_out
+    │           │   │   ├── [139K]  o-ox_-0.5_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.5_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 825]  ox_-0.5.in_ox_-0.5_run
+    │           │   │   └── [ 22K]  r-ox_-0.5_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.6_out
+    │           │   │   ├── [139K]  o-ox_-0.6_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.6_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 825]  ox_-0.6.in_ox_-0.6_run
+    │           │   │   └── [ 22K]  r-ox_-0.6_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_-0.7_out
+    │           │   │   ├── [139K]  o-ox_-0.7_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_-0.7_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 825]  ox_-0.7.in_ox_-0.7_run
+    │           │   │   └── [ 22K]  r-ox_-0.7_run_optics_chi_tddft
+    │           │   └── [2.6K]  tddft-c1.sh
+    │           ├── [4.0K]  calc-2
+    │           │   ├── [4.0K]  ox_3_Ry_out
+    │           │   │   ├── [139K]  o-ox_3_Ry_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_3_Ry_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 822]  ox_3_Ry.in_ox_3_Ry_run
+    │           │   │   └── [ 22K]  r-ox_3_Ry_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_4_Ry_out
+    │           │   │   ├── [139K]  o-ox_4_Ry_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_4_Ry_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 822]  ox_4_Ry.in_ox_4_Ry_run
+    │           │   │   └── [ 22K]  r-ox_4_Ry_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_5_Ry_out
+    │           │   │   ├── [139K]  o-ox_5_Ry_run.eel_q1_inv_LRC_dyson
+    │           │   │   ├── [139K]  o-ox_5_Ry_run.eps_q1_inv_LRC_dyson
+    │           │   │   ├── [ 822]  ox_5_Ry.in_ox_5_Ry_run
+    │           │   │   └── [ 22K]  r-ox_5_Ry_run_optics_chi_tddft
+    │           │   ├── [4.0K]  ox_6_Ry_out
+    │           │   │   ├── [ 822]  ox_6_Ry.in_ox_6_Ry_run
+    │           │   │   └── [ 14K]  r-ox_6_Ry_run_optics_chi_tddft
+    │           │   └── [2.6K]  tddft-c2.sh
+    │           ├── [4.0K]  calc-3
+    │           │   └── [4.2K]  tddft-c3.sh
+    │           ├── [4.0K]  calc-4
+    │           │   ├── [4.0K]  eps-gaup-0.0
+    │           │   │   ├── [4.0K]  ox-eps-gaup-0.0_out
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-0.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [139K]  o-ox-eps-gaup-0.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 896]  ox-eps-gaup-0.0.in_ox-eps-gaup-0.0_run
+    │           │   │   │   └── [ 22K]  r-ox-eps-gaup-0.0_run_optics_chi_tddft
+    │           │   │   ├── [4.0K]  oy-eps-gaup-0.0_out
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-0.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [139K]  o-oy-eps-gaup-0.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  oy-eps-gaup-0.0.in_oy-eps-gaup-0.0_run
+    │           │   │   │   └── [ 22K]  r-oy-eps-gaup-0.0_run_optics_chi_tddft
+    │           │   │   └── [101K]  r_setup
+    │           │   ├── [4.0K]  eps-gaup-1.0
+    │           │   │   ├── [4.0K]  ox-eps-gaup-1.0_out
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-1.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-1.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 902]  ox-eps-gaup-1.0.in_ox-eps-gaup-1.0_run
+    │           │   │   │   └── [ 22K]  r-ox-eps-gaup-1.0_run_optics_chi_tddft
+    │           │   │   ├── [4.0K]  oy-eps-gaup-1.0_out
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-1.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-1.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  oy-eps-gaup-1.0.in_oy-eps-gaup-1.0_run
+    │           │   │   │   └── [ 22K]  r-oy-eps-gaup-1.0_run_optics_chi_tddft
+    │           │   │   └── [100K]  r_setup
+    │           │   ├── [4.0K]  eps-gaup-2.0
+    │           │   │   ├── [4.0K]  ox-eps-gaup-2.0_out
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-2.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-2.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  ox-eps-gaup-2.0.in_ox-eps-gaup-2.0_run
+    │           │   │   │   └── [ 22K]  r-ox-eps-gaup-2.0_run_optics_chi_tddft
+    │           │   │   ├── [4.0K]  oy-eps-gaup-2.0_out
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-2.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-2.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  oy-eps-gaup-2.0.in_oy-eps-gaup-2.0_run
+    │           │   │   │   └── [ 22K]  r-oy-eps-gaup-2.0_run_optics_chi_tddft
+    │           │   │   └── [100K]  r_setup
+    │           │   ├── [4.0K]  eps-gaup-3.0
+    │           │   │   ├── [4.0K]  ox-eps-gaup-3.0_out
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-3.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-3.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  ox-eps-gaup-3.0.in_ox-eps-gaup-3.0_run
+    │           │   │   │   └── [ 22K]  r-ox-eps-gaup-3.0_run_optics_chi_tddft
+    │           │   │   ├── [4.0K]  oy-eps-gaup-3.0_out
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-3.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-3.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  oy-eps-gaup-3.0.in_oy-eps-gaup-3.0_run
+    │           │   │   │   └── [ 22K]  r-oy-eps-gaup-3.0_run_optics_chi_tddft
+    │           │   │   └── [100K]  r_setup
+    │           │   ├── [4.0K]  eps-gaup-4.0
+    │           │   │   ├── [4.0K]  ox-eps-gaup-4.0_out
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-4.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-4.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  ox-eps-gaup-4.0.in_ox-eps-gaup-4.0_run
+    │           │   │   │   └── [ 22K]  r-ox-eps-gaup-4.0_run_optics_chi_tddft
+    │           │   │   ├── [4.0K]  oy-eps-gaup-4.0_out
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-4.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-4.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  oy-eps-gaup-4.0.in_oy-eps-gaup-4.0_run
+    │           │   │   │   └── [ 22K]  r-oy-eps-gaup-4.0_run_optics_chi_tddft
+    │           │   │   └── [100K]  r_setup
+    │           │   ├── [4.0K]  eps-gaup-5.0
+    │           │   │   ├── [4.0K]  ox-eps-gaup-5.0_out
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-5.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-ox-eps-gaup-5.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  ox-eps-gaup-5.0.in_ox-eps-gaup-5.0_run
+    │           │   │   │   └── [ 22K]  r-ox-eps-gaup-5.0_run_optics_chi_tddft
+    │           │   │   ├── [4.0K]  oy-eps-gaup-5.0_out
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-5.0_run.eel_q1_inv_LRC_dyson
+    │           │   │   │   ├── [140K]  o-oy-eps-gaup-5.0_run.eps_q1_inv_LRC_dyson
+    │           │   │   │   ├── [ 895]  oy-eps-gaup-5.0.in_oy-eps-gaup-5.0_run
+    │           │   │   │   └── [ 22K]  r-oy-eps-gaup-5.0_run_optics_chi_tddft
+    │           │   │   └── [100K]  r_setup
+    │           │   └── [ 18K]  tddft-gaup-c4.sh
+    │           └── [4.0K]  data-to-plot
+    │               ├── [139K]  o-ox-eps-gaup-0.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [140K]  o-ox-eps-gaup-1.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [140K]  o-ox-eps-gaup-2.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [140K]  o-ox-eps-gaup-3.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [140K]  o-ox-eps-gaup-4.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [140K]  o-ox-eps-gaup-5.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [139K]  o-oy-eps-gaup-0.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [140K]  o-oy-eps-gaup-1.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [140K]  o-oy-eps-gaup-2.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [140K]  o-oy-eps-gaup-3.0_run.eps_q1_inv_LRC_dyson
+    │               ├── [140K]  o-oy-eps-gaup-4.0_run.eps_q1_inv_LRC_dyson
+    │               └── [140K]  o-oy-eps-gaup-5.0_run.eps_q1_inv_LRC_dyson
+    └── [2.1K]  README.md
 
-160 directories, 732 files
+160 directories, 662 files

@@ -1,7 +1,18 @@
-<img align="left" src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/Escudo.png">
-<img align="right" src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/uaslp-1.png">
-<br><br><br><br><br><br>
+<div style="display: flex; justify-content: space-between; align-items: flex-start;">
+  <!-- Logo izquierda -->
+  <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/Escudo.png" 
+       alt="Escudo" width="120">
 
+  <!-- GIF al centro -->
+  <img src="figure-workflow/Sb2Te3-sc.gif" 
+       alt="GIF central" width="200">
+
+  <!-- Logo derecha -->
+  <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/uaslp-1.png" 
+       alt="UASLP" width="120">
+</div>
+
+<br><br><br>
 # Sb2Te3-TDDFT-2DM  
 
 Research data and scripts repository for the paper:  
