@@ -1,10 +1,10 @@
-<table width="100%">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="left">
       <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/Escudo.png" width="250">
     </td>
     <td align="center">
-      <img src="figure-workflow/Sb2Te3-sc.gif" width="200">
+      <img src="figure-workflow/Sb2Te3-sc.gif" width="250">
     </td>
     <td align="right">
       <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/uaslp-1.png" width="250">
@@ -12,7 +12,7 @@
   </tr>
 </table>
 
-<br><br><br>
+<br><br>
 # Sb2Te3-TDDFT-2DM  
 
 Research data and scripts repository for the paper:  
