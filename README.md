@@ -4,7 +4,7 @@
       <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/Escudo.png" width="250">
     </td>
     <td align="center">
-      <img src="figure-workflow/Sb2Te3-sc.gif" width="200">
+      <img src="figure-workflow/Sb2Te3-sc.gif" width="250">
     </td>
     <td align="right">
       <img src="https://github.com/NanophotonIICOs/.github/blob/main/profile/images/uaslp-1.png" width="250">
