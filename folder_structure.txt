@@ -101,19 +101,7 @@
 │   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-4.0.nscf.bands.pw.in
 │   │   │   │   ├── [267K]  Sb2Te3-uatsx-c1-4.0.nscf.bands.pw.out
 │   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c1-5.0.nscf.bands.pw.in
-│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c1-5.0.nscf.bands.pw.out
-│   │   │   │   ├── [1.1K]  Sb2Te3-uatsx-c3-0.0.nscf.bands.pw.in
-│   │   │   │   ├── [268K]  Sb2Te3-uatsx-c3-0.0.nscf.bands.pw.out
-│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-1.0.nscf.bands.pw.in
-│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c3-1.0.nscf.bands.pw.out
-│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-2.0.nscf.bands.pw.in
-│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c3-2.0.nscf.bands.pw.out
-│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-3.0.nscf.bands.pw.in
-│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c3-3.0.nscf.bands.pw.out
-│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-4.0.nscf.bands.pw.in
-│   │   │   │   ├── [267K]  Sb2Te3-uatsx-c3-4.0.nscf.bands.pw.out
-│   │   │   │   ├── [1.2K]  Sb2Te3-uatsx-c3-5.0.nscf.bands.pw.in
-│   │   │   │   └── [267K]  Sb2Te3-uatsx-c3-5.0.nscf.bands.pw.out
+│   │   │   │   └── [267K]  Sb2Te3-uatsx-c1-5.0.nscf.bands.pw.out
 │   │   │   ├── [4.0K]  scf
 │   │   │   │   ├── [ 896]  Sb2Te3-uatsx-c1-0.0.scf.pw.in
 │   │   │   │   ├── [229K]  Sb2Te3-uatsx-c1-0.0.scf.pw.out
@@ -126,19 +114,7 @@
 │   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c1-4.0.scf.pw.in
 │   │   │   │   ├── [229K]  Sb2Te3-uatsx-c1-4.0.scf.pw.out
 │   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c1-5.0.scf.pw.in
-│   │   │   │   ├── [229K]  Sb2Te3-uatsx-c1-5.0.scf.pw.out
-│   │   │   │   ├── [ 923]  Sb2Te3-uatsx-c3-0.0.scf.pw.in
-│   │   │   │   ├── [229K]  Sb2Te3-uatsx-c3-0.0.scf.pw.out
-│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-1.0.scf.pw.in
-│   │   │   │   ├── [230K]  Sb2Te3-uatsx-c3-1.0.scf.pw.out
-│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-2.0.scf.pw.in
-│   │   │   │   ├── [230K]  Sb2Te3-uatsx-c3-2.0.scf.pw.out
-│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-3.0.scf.pw.in
-│   │   │   │   ├── [230K]  Sb2Te3-uatsx-c3-3.0.scf.pw.out
-│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-4.0.scf.pw.in
-│   │   │   │   ├── [229K]  Sb2Te3-uatsx-c3-4.0.scf.pw.out
-│   │   │   │   ├── [1.0K]  Sb2Te3-uatsx-c3-5.0.scf.pw.in
-│   │   │   │   └── [229K]  Sb2Te3-uatsx-c3-5.0.scf.pw.out
+│   │   │   │   └── [229K]  Sb2Te3-uatsx-c1-5.0.scf.pw.out
 │   │   │   └── [ 22K]  uatsx-c1.sh
 │   │   └── [4.0K]  soc
 │   │       ├── [ 12K]  bands
@@ -822,4 +798,4 @@
     │               └── [140K]  o-oy-eps-gaup-5.0_run.eps_q1_inv_LRC_dyson
     └── [2.1K]  README.md
 
-160 directories, 662 files
+160 directories, 638 files
