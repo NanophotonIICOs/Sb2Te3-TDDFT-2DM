@@ -1,9 +1,8 @@
 [4.0K]  .
-├── [4.0K]  figure-workflow
+├── [4.0K]  figures-workflow
 │   ├── [4.0K]  fig-1
 │   │   ├── [4.0K]  bands
-│   │   │   ├── [578K]  plot_gga_wou_soc.pdf
-│   │   │   └── [518K]  plot_gga_w_soc.pdf
+│   │   │   └── [578K]  plot_gga_wou_soc.pdf
 │   │   ├── [4.0K]  build-oscar
 │   │   │   ├── [782K]  fig_center.pdf
 │   │   │   └── [5.4M]  Sb2Te3-sc.pdf
@@ -246,10 +245,11 @@
 │   └── [1.6K]  README.md
 ├── [3.9K]  README.md
 ├── [4.0K]  scripts-plots
-│   ├── [117K]  bands_plots_g0w0.ipynb
-│   ├── [744K]  bands_plots_pbe.ipynb
-│   ├── [ 47K]  hybrid_gaps.ipynb
-│   └── [1.6M]  optical_plots.ipynb
+│   ├── [125K]  bands_plots_g0w0.ipynb
+│   ├── [750K]  bands_plots_pbe.ipynb
+│   ├── [ 48K]  hybrid_gaps.ipynb
+│   ├── [1.8M]  optical_plots.ipynb
+│   └── [ 727]  README.md
 └── [4.0K]  YAMBO
     ├── [4.0K]  acct-1
     │   ├── [4.0K]  BSE
